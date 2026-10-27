@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2f18ae7324a38043a1a693f06afbd5d, type: 3}
+  m_Name: ICOPE_Audition
+  m_EditorClassIdentifier: widid.immersiveapi3.runtime::WiDiD.ImmersiveAPI.Trainings.TrainingSO
+  <Data>k__BackingField:
+    <Id>k__BackingField: ICOPE_Audition
+    <ModuleId>k__BackingField: 
+    <RemoteTrainingId>k__BackingField: 162
+    <LocalizedName>k__BackingField:
+      useLocalizedString: 0
+      importSource:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      languageKeys:
+      - localizationIndex: 1
+        value: ICOPE Audition Tests
+      mandatoryLanguagesIndex: 0000000001000000i
+    <LocalizedDescription>k__BackingField:
+      useLocalizedString: 0
+      importSource:
+        m_TableReference:
+          m_TableCollectionName: 
+        m_TableEntryReference:
+          m_KeyId: 0
+          m_Key: 
+        m_FallbackState: 0
+        m_WaitForCompletion: 0
+        m_LocalVariables: []
+      languageKeys:
+      - localizationIndex: 1
+        value: Tests
+      mandatoryLanguagesIndex: 0000000001000000i
+    <GameFlow>k__BackingField:
+      <Strategies>k__BackingField: []
+      <SimulationPassingScore>k__BackingField: 0.5
+      <Performances>k__BackingField: []
+      <Skills>k__BackingField: []
+      <Badges>k__BackingField: []
+      <Rewards>k__BackingField: []
+  references:
+    version: 2
+    RefIds: []

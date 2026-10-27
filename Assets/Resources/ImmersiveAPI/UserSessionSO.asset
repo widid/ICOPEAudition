@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1290b0beb045d4b42867749e7abb2693, type: 3}
+  m_Name: UserSessionSO
+  m_EditorClassIdentifier: widid.authentication.runtime::WiDiD.ImmersiveAPI.UserSessionSO
+  <Data>k__BackingField:
+    decodedToken: eyJraWQiOiJrZXktMjAyNCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyOSIsIm9mZmxpbmUiOnRydWUsImNsaWVudElkIjo2LCJleHAiOjE3OTU4MjA0MDAsImF1dGgiOiJST0xFX0FETUlOSVNUUkFUT1IsUk9MRV9NQU5BR0VSIn0.AghWRCFzHNY260iKLMd1gGelJx4uVzRZdNsCPZnX5D4ghkL_3J_bbcwIzjzNfSka9cYYtX7dxtpI6PGebyIZhwYy8ClxtvvWR1KPKqe4u-EUwmG_WPVGPVfDwa3_3ixHmLfDKIyagV0Tp1OTh7wucmEIGmWc80ZOkwzhvoF9U7i-Qu13o1zkbSxMnGKYYdMEwMhWY6Mya1ULqp_wI7k9jj-T0FvSCgaXCSEYG9Cdpp_2w42XgGW12cPyGykAuCOj1tXZnlzzM2kXy8W4RAUM94zAwa5Gylx8Ob9Qlyp-Jk6tJ5yUk35FFYWs__KJsNDUwLl8gV7d7pSSgly6ukyffw
+    trainingId: 
+    moduleArgument: 
+    mode: Online
+    targetUrl: https://widid-immersive.fr/api/v1/
+    launchTime: 
+    userId: 29
+    userProfile:
+      token: eyJraWQiOiJrZXktMjAyNCIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiIyOSIsIm9mZmxpbmUiOnRydWUsImNsaWVudElkIjo2LCJleHAiOjE3OTU4MjA0MDAsImF1dGgiOiJST0xFX0FETUlOSVNUUkFUT1IsUk9MRV9NQU5BR0VSIn0.AghWRCFzHNY260iKLMd1gGelJx4uVzRZdNsCPZnX5D4ghkL_3J_bbcwIzjzNfSka9cYYtX7dxtpI6PGebyIZhwYy8ClxtvvWR1KPKqe4u-EUwmG_WPVGPVfDwa3_3ixHmLfDKIyagV0Tp1OTh7wucmEIGmWc80ZOkwzhvoF9U7i-Qu13o1zkbSxMnGKYYdMEwMhWY6Mya1ULqp_wI7k9jj-T0FvSCgaXCSEYG9Cdpp_2w42XgGW12cPyGykAuCOj1tXZnlzzM2kXy8W4RAUM94zAwa5Gylx8Ob9Qlyp-Jk6tJ5yUk35FFYWs__KJsNDUwLl8gV7d7pSSgly6ukyffw
+      info:
+        id: 29
+        firstName: David
+        lastName: Hamon
+        email: david+test@widid.fr
+        roles:
+        - ROLE_ADMINISTRATOR
+        - ROLE_MANAGER
+        picture: https://widid-immersive.fr/public/users/pictures/29-1666343756046.jpg
+        managers:
+        - aurore+tg@widid.fr
+        badges: 01000000030000000400000005000000060000001100000012000000i
+      clientId: 6
+    registration: 
