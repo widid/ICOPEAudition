@@ -1,0 +1,1101 @@
+{
+  "sessions": [
+    {
+      "current": "0_1_michel",
+      "previous": [],
+      "name": {
+        "fr": "Tutoriel - Michel",
+        "en": "Tutorial - Michel"
+      },
+      "steps": [
+        {
+          "current": "0_1_michel.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "0_1_michel.s01_wispertest",
+          "previous": [
+            "0_1_michel.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "0_1_michel.s02_gonogo",
+          "previous": [
+            "0_1_michel.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "0_1_michel.s03_otoscopy",
+          "previous": [
+            "0_1_michel.s02_gonogo"
+          ],
+          "name": {
+            "fr": "4. Otoscopie",
+            "en": "4. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "0_1_michel.s04_hhies",
+          "previous": [
+            "0_1_michel.s03_otoscopy"
+          ],
+          "name": {
+            "fr": "5. Questionnaire HHIE-S",
+            "en": "5. HHIE-S questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "0_1_michel.s05_webertest",
+          "previous": [
+            "0_1_michel.s04_hhies"
+          ],
+          "name": {
+            "fr": "6. Test de Weber",
+            "en": "6. Weber test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "0_1_michel.s06_audiometry",
+          "previous": [
+            "0_1_michel.s05_webertest"
+          ],
+          "name": {
+            "fr": "7. Audiométrie",
+            "en": "7. Audiometry"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "1_1_jeanne",
+      "previous": [
+        "0_1_michel"
+      ],
+      "name": {
+        "fr": "Facile - Jeanne",
+        "en": "Easy - Jeanne"
+      },
+      "steps": [
+        {
+          "current": "1_1_jeanne.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_1_jeanne.s01_gonogo",
+          "previous": [
+            "1_1_jeanne.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Questionnaire de repérage",
+            "en": "2. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_1_jeanne.s02_otoscopy",
+          "previous": [
+            "1_1_jeanne.s01_gonogo"
+          ],
+          "name": {
+            "fr": "3. Otoscopie",
+            "en": "3. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_1_jeanne.s03_otoscopy",
+          "previous": [
+            "1_1_jeanne.s02_otoscopy"
+          ],
+          "name": {
+            "fr": "4. Otoscopie",
+            "en": "4. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_1_jeanne.s04_wispertest",
+          "previous": [
+            "1_1_jeanne.s03_otoscopy"
+          ],
+          "name": {
+            "fr": "5. Test de la voix chuchotée",
+            "en": "5. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_1_jeanne.s05_hhies",
+          "previous": [
+            "1_1_jeanne.s04_wispertest"
+          ],
+          "name": {
+            "fr": "6. Questionnaire HHIE-S",
+            "en": "6. HHIE-S questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_1_jeanne.s06_webertest",
+          "previous": [
+            "1_1_jeanne.s05_hhies"
+          ],
+          "name": {
+            "fr": "7. Test de Weber",
+            "en": "7. Weber test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_1_jeanne.s07_audiometry",
+          "previous": [
+            "1_1_jeanne.s06_webertest"
+          ],
+          "name": {
+            "fr": "8. Audiométrie",
+            "en": "8. Audiometry"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "1_2_elisabeth",
+      "previous": [
+        "1_1_jeanne"
+      ],
+      "name": {
+        "fr": "Facile - Elisabeth",
+        "en": "Easy - Elisabeth"
+      },
+      "steps": [
+        {
+          "current": "1_2_elisabeth.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_2_elisabeth.s01_telephone",
+          "previous": [
+            "1_2_elisabeth.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Appel téléphonique",
+            "en": "2. Phone call"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_2_elisabeth.s02_gonogo",
+          "previous": [
+            "1_2_elisabeth.s01_telephone"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "1_3_denise",
+      "previous": [
+        "1_2_elisabeth"
+      ],
+      "name": {
+        "fr": "Facile - Denise",
+        "en": "Easy - Denise"
+      },
+      "steps": [
+        {
+          "current": "1_3_denise.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_3_denise.s01_wispertest",
+          "previous": [
+            "1_3_denise.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_3_denise.s02_gonogo",
+          "previous": [
+            "1_3_denise.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_3_denise.s03_otoscopy",
+          "previous": [
+            "1_3_denise.s02_gonogo"
+          ],
+          "name": {
+            "fr": "4. Otoscopie",
+            "en": "4. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_3_denise.s04_otoscopy",
+          "previous": [
+            "1_3_denise.s03_otoscopy"
+          ],
+          "name": {
+            "fr": "5. Otoscopie",
+            "en": "5. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_3_denise.s05_wispertest",
+          "previous": [
+            "1_3_denise.s04_otoscopy"
+          ],
+          "name": {
+            "fr": "6. Test de la voix chuchotée",
+            "en": "6. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "1_4_gerard",
+      "previous": [
+        "1_3_denise"
+      ],
+      "name": {
+        "fr": "Facile - Gérard",
+        "en": "Easy - Gérard"
+      },
+      "steps": [
+        {
+          "current": "1_4_gerard.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_4_gerard.s01_wispertest",
+          "previous": [
+            "1_4_gerard.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_4_gerard.s02_gonogo",
+          "previous": [
+            "1_4_gerard.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_4_gerard.s03_otoscopy",
+          "previous": [
+            "1_4_gerard.s02_gonogo"
+          ],
+          "name": {
+            "fr": "4. Otoscopie",
+            "en": "4. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "1_5_lydie",
+      "previous": [
+        "1_4_gerard"
+      ],
+      "name": {
+        "fr": "Facile - Lydie",
+        "en": "Easy - Lydie"
+      },
+      "steps": [
+        {
+          "current": "1_5_lydie.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_5_lydie.s01_wispertest",
+          "previous": [
+            "1_5_lydie.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_5_lydie.s02_gonogo",
+          "previous": [
+            "1_5_lydie.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_5_lydie.s03_otoscopy",
+          "previous": [
+            "1_5_lydie.s02_gonogo"
+          ],
+          "name": {
+            "fr": "4. Otoscopie",
+            "en": "4. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_5_lydie.s04_otoscopy",
+          "previous": [
+            "1_5_lydie.s03_otoscopy"
+          ],
+          "name": {
+            "fr": "5. Otoscopie",
+            "en": "5. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "1_5_lydie.s05_wispertest",
+          "previous": [
+            "1_5_lydie.s04_otoscopy"
+          ],
+          "name": {
+            "fr": "6. Test de la voix chuchotée",
+            "en": "6. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "2_1_rachel",
+      "previous": [
+        "1_5_lydie"
+      ],
+      "name": {
+        "fr": "Moyen - Rachel",
+        "en": "Medium - Rachel"
+      },
+      "steps": [
+        {
+          "current": "2_1_rachel.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_1_rachel.s01_wispertest",
+          "previous": [
+            "2_1_rachel.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_1_rachel.s02_gonogo",
+          "previous": [
+            "2_1_rachel.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_1_rachel.s03_otoscopy",
+          "previous": [
+            "2_1_rachel.s02_gonogo"
+          ],
+          "name": {
+            "fr": "4. Otoscopie",
+            "en": "4. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_1_rachel.s04_hhies",
+          "previous": [
+            "2_1_rachel.s03_otoscopy"
+          ],
+          "name": {
+            "fr": "5. Questionnaire HHIE-S",
+            "en": "5. HHIE-S questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_1_rachel.s05_webertest",
+          "previous": [
+            "2_1_rachel.s04_hhies"
+          ],
+          "name": {
+            "fr": "6. Test de Weber",
+            "en": "6. Weber test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_1_rachel.s06_audiometry",
+          "previous": [
+            "2_1_rachel.s05_webertest"
+          ],
+          "name": {
+            "fr": "7. Audiométrie",
+            "en": "7. Audiometry"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "2_2_alain",
+      "previous": [
+        "2_1_rachel"
+      ],
+      "name": {
+        "fr": "Moyen - Alain",
+        "en": "Medium - Alain"
+      },
+      "steps": [
+        {
+          "current": "2_2_alain.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_2_alain.s01_gonogo",
+          "previous": [
+            "2_2_alain.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Questionnaire de repérage",
+            "en": "2. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_2_alain.s02_otoscopy",
+          "previous": [
+            "2_2_alain.s01_gonogo"
+          ],
+          "name": {
+            "fr": "3. Otoscopie",
+            "en": "3. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "2_3_roger",
+      "previous": [
+        "2_2_alain"
+      ],
+      "name": {
+        "fr": "Moyen - Roger",
+        "en": "Medium - Roger"
+      },
+      "steps": [
+        {
+          "current": "2_3_roger.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_3_roger.s01_gonogo",
+          "previous": [
+            "2_3_roger.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Questionnaire de repérage",
+            "en": "2. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "2_4_marie",
+      "previous": [
+        "2_3_roger"
+      ],
+      "name": {
+        "fr": "Moyen - Marie",
+        "en": "Medium - Marie"
+      },
+      "steps": [
+        {
+          "current": "2_4_marie.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_4_marie.s01_gonogo",
+          "previous": [
+            "2_4_marie.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Questionnaire de repérage",
+            "en": "2. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_4_marie.s02_otoscopy",
+          "previous": [
+            "2_4_marie.s01_gonogo"
+          ],
+          "name": {
+            "fr": "3. Otoscopie",
+            "en": "3. Otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_4_marie.s03_hhies",
+          "previous": [
+            "2_4_marie.s02_otoscopy"
+          ],
+          "name": {
+            "fr": "4. Questionnaire HHIE-S",
+            "en": "4. HHIE-S questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_4_marie.s04_webertest",
+          "previous": [
+            "2_4_marie.s03_hhies"
+          ],
+          "name": {
+            "fr": "5. Test de Weber",
+            "en": "5. Weber test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_4_marie.s05_audiometry",
+          "previous": [
+            "2_4_marie.s04_webertest"
+          ],
+          "name": {
+            "fr": "6. Audiométrie",
+            "en": "6. Audiometry"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "2_5_helene",
+      "previous": [
+        "2_4_marie"
+      ],
+      "name": {
+        "fr": "Moyen - Hélène",
+        "en": "Medium - Hélène"
+      },
+      "steps": [
+        {
+          "current": "2_5_helene.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_5_helene.s01_wispertest",
+          "previous": [
+            "2_5_helene.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "2_5_helene.s02_gonogo",
+          "previous": [
+            "2_5_helene.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "3_1_philippe",
+      "previous": [
+        "2_5_helene"
+      ],
+      "name": {
+        "fr": "Difficile - Philippe",
+        "en": "Hard - Philippe"
+      },
+      "steps": [
+        {
+          "current": "3_1_philippe.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_1_philippe.s01_wispertest",
+          "previous": [
+            "3_1_philippe.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_1_philippe.s02_gonogo",
+          "previous": [
+            "3_1_philippe.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_1_philippe.s03_hhiesweber",
+          "previous": [
+            "3_1_philippe.s02_gonogo"
+          ],
+          "name": {
+            "fr": "4. HHIE-S et Weber",
+            "en": "4. HHIE-S and Weber"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_1_philippe.s04_audiometry",
+          "previous": [
+            "3_1_philippe.s03_hhiesweber"
+          ],
+          "name": {
+            "fr": "5. Audiométrie",
+            "en": "5. Audiometry"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_1_philippe.s05_audiometryvocale",
+          "previous": [
+            "3_1_philippe.s04_audiometry"
+          ],
+          "name": {
+            "fr": "6. Audiométrie vocale",
+            "en": "6. Speech audiometry"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "3_2_damien",
+      "previous": [
+        "3_1_philippe"
+      ],
+      "name": {
+        "fr": "Difficile - Damien",
+        "en": "Hard - Damien"
+      },
+      "steps": [
+        {
+          "current": "3_2_damien.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_2_damien.s01_wispertest",
+          "previous": [
+            "3_2_damien.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_2_damien.s02_gonogo",
+          "previous": [
+            "3_2_damien.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_2_damien.s03_hhiesweber",
+          "previous": [
+            "3_2_damien.s02_gonogo"
+          ],
+          "name": {
+            "fr": "4. HHIE-S et Weber",
+            "en": "4. HHIE-S and Weber"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_2_damien.s04_audiometry",
+          "previous": [
+            "3_2_damien.s03_hhiesweber"
+          ],
+          "name": {
+            "fr": "5. Audiométrie",
+            "en": "5. Audiometry"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "3_3_vincent",
+      "previous": [
+        "3_2_damien"
+      ],
+      "name": {
+        "fr": "Difficile - Vincent",
+        "en": "Hard - Vincent"
+      },
+      "steps": [
+        {
+          "current": "3_3_vincent.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_3_vincent.s01_gonogootoscopy",
+          "previous": [
+            "3_3_vincent.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Repérage et otoscopie",
+            "en": "2. Screening and otoscopy"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_3_vincent.s02_hhiesweber",
+          "previous": [
+            "3_3_vincent.s01_gonogootoscopy"
+          ],
+          "name": {
+            "fr": "3. HHIE-S et Weber",
+            "en": "3. HHIE-S and Weber"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_3_vincent.s03_audiometry",
+          "previous": [
+            "3_3_vincent.s02_hhiesweber"
+          ],
+          "name": {
+            "fr": "4. Audiométrie",
+            "en": "4. Audiometry"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    },
+    {
+      "current": "3_4_frank",
+      "previous": [
+        "3_3_vincent"
+      ],
+      "name": {
+        "fr": "Difficile - Frank",
+        "en": "Hard - Frank"
+      },
+      "steps": [
+        {
+          "current": "3_4_frank.s00_casepresentation",
+          "previous": [],
+          "name": {
+            "fr": "1. Présentation du cas",
+            "en": "1. Case presentation"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_4_frank.s01_wispertest",
+          "previous": [
+            "3_4_frank.s00_casepresentation"
+          ],
+          "name": {
+            "fr": "2. Test de la voix chuchotée",
+            "en": "2. Whisper test"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        },
+        {
+          "current": "3_4_frank.s02_gonogo",
+          "previous": [
+            "3_4_frank.s01_wispertest"
+          ],
+          "name": {
+            "fr": "3. Questionnaire de repérage",
+            "en": "3. Screening questionnaire"
+          },
+          "succeeded": false,
+          "score": 0.0,
+          "highscore": 0.0
+        }
+      ]
+    }
+  ]
+}

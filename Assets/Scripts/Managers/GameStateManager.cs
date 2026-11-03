@@ -1,6 +1,5 @@
 using PatientData;
 using PatientData.AlgoData;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Managers{
@@ -15,54 +14,11 @@ namespace Managers{
         private GameState _gameState;
         private int _currentLevel;
         private int _currentPatientCase;
-        private Dictionary<int, int> _maxPatientCase;
-        private Dictionary<int, int> maxByLevel = new Dictionary<int, int>() {
-            { 0, 1 }, { 1, 5 }, { 2, 5 }, { 3, 4 }
-        };
         private Step _currentStep;
 
         [HideInInspector] public LevelsData levelsData;
         private PatientCaseLevel _patientCaseLevel;
         private PatientData.PatientData _patientData;
-        
-        /// <summary>
-        /// Initializes the LevelsData reference from the GameManager and sets
-        /// the default current level and patient case. These defaults can be
-        /// overridden later if a saved game is loaded.
-        /// </summary>
-        private void Start(){
-            // Set by default current level and current patient case (change later if player has a save)
-            _currentLevel = 0;
-            _currentPatientCase = 0;
-            UpdateMaxPatientCase();
-        }
-        
-        private void UpdateMaxPatientCase() {
-            int maxSave = PlayerPrefs.GetInt("MaxLevel", 0); //Debug!!! GET nb niveau fini
-            _maxPatientCase = new Dictionary<int, int>();
-
-            foreach (KeyValuePair<int, int> level in maxByLevel) {
-                if (maxSave <= 0) {
-                    _maxPatientCase[level.Key] = -1;
-                    continue;
-                }
-
-                int completedCases = Mathf.Min(maxSave, level.Value);
-                _maxPatientCase[level.Key] = completedCases;
-                maxSave -= completedCases;
-            }
-        }
-        
-        private void SaveMaxLevel() {
-            int maxSave = 0;
-
-            foreach (KeyValuePair<int, int> level in _maxPatientCase) {
-                maxSave += Mathf.Max(0, level.Value);
-            }
-            
-            PlayerPrefs.SetInt("MaxLevel", maxSave); //Debug!!! SET nb niveau fini
-            PlayerPrefs.Save();
-        }
 
         // MAIN MENU / GAME MENU TRANSITIONS
         /// <summary>
@@ -126,12 +82,6 @@ namespace Managers{
             _currentPatientCase = patientCase;
             _patientData = patient;
 
-            if (!_maxPatientCase.TryAdd(_currentLevel, _currentPatientCase)) {
-                if (_maxPatientCase[_currentLevel] < _currentPatientCase) {
-                    _maxPatientCase[_currentLevel] = _currentPatientCase;
-                }
-            }
-
             GameManager.Instance.GameData.SetPatientCaseRecorder(_patientData.firstName);
 
             Debug.Log($"Current Patient: {_currentPatientCase}, {_patientData.lastName}");
@@ -143,15 +93,6 @@ namespace Managers{
         /// <returns>Integer representation of the current patient case.</returns>
         public int GetCurrentPatientCase(){
             return (int)_currentPatientCase;
-        }
-
-        /// <summary>
-        /// Returns the max patient case the player can do for a level as an integer.
-        /// </summary>
-        /// <param name="level">Index of the selected level.</param>
-        /// <returns>Integer representation of the current patient case.</returns>
-        public int GetMaxPatientCase(int level){
-            return _maxPatientCase.GetValueOrDefault(level, -1);
         }
 
         /// <summary>
@@ -211,7 +152,6 @@ namespace Managers{
         /// </summary>
         public void NextPatientCase(){
             _currentPatientCase++;
-            _maxPatientCase[_currentLevel] = Mathf.Max(_maxPatientCase[_currentLevel], _currentPatientCase);
             if (_currentPatientCase < _patientCaseLevel.patientsCase.Count) {
                 SetPatientCase(_currentPatientCase, _patientCaseLevel.patientsCase[(int)_currentPatientCase]);
                 ReturnToGameMenu();
@@ -219,11 +159,8 @@ namespace Managers{
                 Debug.Log("Tous les cas patient sont terminer! Next Level !");
                 _currentPatientCase = 0; // Reset patient case
                 _currentLevel++;
-                _maxPatientCase[_currentLevel] = Mathf.Max(_maxPatientCase[_currentLevel], 0);
-                // Clear patient case records                 
                 NextLevel();
             }
-            SaveMaxLevel();
         }
 
         /// <summary>
@@ -268,31 +205,6 @@ namespace Managers{
             //return Game menu selection patient
             GameManager.Instance.LoadGameMenu();
             GameManager.Instance.AudioManager.PlayBGM("skyline");
-        }
-
-        /// <summary>
-        /// Loads the saved player state by setting the current level and patient case.
-        /// If the saved patient case is not the last in the current level, 
-        /// it advances to the next patient case. Otherwise, it moves to the next level.
-        /// </summary>
-        /// <param name="savedLevelState">The saved level state to load.</param>
-        /// <param name="savedPatientCase">The saved patient case to load.</param>
-        public void LoadPlayerSaveStates(int savedLevelState, int savedPatientCase){
-            if (savedLevelState <= GameManager.Instance.levelsData.patientByLevel.Count) {
-                _currentLevel = savedLevelState;
-
-                // WARNING : if cond not good
-                if (savedPatientCase <
-                    GameManager.Instance.levelsData.patientByLevel[_currentLevel].patientsCase.Count - 1) {
-                    _currentPatientCase = savedPatientCase + 1;
-                } else {
-                    // TO CHANGE : Load next level & patientCase = 0
-                    _currentPatientCase = savedPatientCase;
-                    _currentLevel++;
-                }
-            }
-
-            Debug.Log($"Next level played : {_currentLevel}, Next patient played: {_currentPatientCase}");
         }
     }
 }

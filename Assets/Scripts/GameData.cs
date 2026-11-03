@@ -188,10 +188,8 @@ public class GameData : MonoBehaviour{
             if (!string.IsNullOrEmpty(answer)) stepData.ActionAnswer.Add(answer);
         }
 
-        // Check if it has diagnotics or action.
-        if (stepData is{ ActionAttempt: 1, DiagnoticsAttempt: 1 }) stepData.Succeeded = true;
-        else if (stepData is{ ActionAttempt: 1, DiagnoticsAttempt: 0 }) stepData.Succeeded = true;
-        else stepData.Succeeded = false;
+        // Succeeded while every phase answered so far was right first time.
+        stepData.Succeeded = stepData.DiagnoticsAttempt <= 1 && stepData.ActionAttempt <= 1;
 
         _stepRecords[_currentKey] = stepData;
     }
@@ -264,10 +262,10 @@ public class GameData : MonoBehaviour{
         foreach (var step in _stepRecords) {
             StepRecords stepData = step.Value;
             if (stepData.DiagnosticAnswer.Count > 1) patientCaseRecords.NumberDiagIncorrect++;
-            else patientCaseRecords.NumberDiagCorrect++;
+            else if (stepData.DiagnosticAnswer.Count == 1) patientCaseRecords.NumberDiagCorrect++;
 
             if (stepData.ActionAnswer.Count > 1) patientCaseRecords.NumberActionIncorrect++;
-            else patientCaseRecords.NumberActionCorrect++;
+            else if (stepData.ActionAnswer.Count == 1) patientCaseRecords.NumberActionCorrect++;
 
             if (stepData.Succeeded) patientCaseRecords.NumberStepSucceed++;
             else patientCaseRecords.NumberStepFailed++;

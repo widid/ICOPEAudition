@@ -8,6 +8,9 @@ namespace PatientData{
     /// </summary>
     [CreateAssetMenu(fileName = "PatientData", menuName = "Medical/Patient")]
     public class PatientData : ScriptableObject{
+        [Tooltip("Patient folder name in StreamingAssets/Levels, e.g. 1_3_Denise. Identifies the case in ImmersiveAPI.")]
+        public string caseId;
+
         [Header("Profil")] public Sprite[] characterSprites;
         public bool isOnPhone;
         public string lastName;

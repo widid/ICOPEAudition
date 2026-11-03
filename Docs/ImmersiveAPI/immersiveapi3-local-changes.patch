@@ -1,0 +1,235 @@
+diff -ruN --strip-trailing-cr a/Runtime/Trainings/GameFlow/Reward/RewardRecorder.cs b/Runtime/Trainings/GameFlow/Reward/RewardRecorder.cs
+--- a/Runtime/Trainings/GameFlow/Reward/RewardRecorder.cs	2026-10-27 15:49:43.527925500 +0100
++++ b/Runtime/Trainings/GameFlow/Reward/RewardRecorder.cs	2026-10-27 15:38:07.211297100 +0100
+@@ -33,7 +33,7 @@
+             this.simulation = simulation;
+         }
+ 
+-        /// <summary>TEMPORARY-STORED-PROGRESS: Writes each stored Raw value back into its reward's reflected source. Returns how many were found.</summary>
++        /// <summary>TEMPORARY-STORED-PROGRESS: Writes each stored total into its reward's RestoreTarget. Returns how many were found.</summary>
+         public int RestoreProgress(IStoredProgress progress, ReflectedValueRestorer restorer)
+         {
+             int restored = 0;
+@@ -43,7 +43,7 @@
+                 if (!progress.TryGetRewardRaw(RewardStatementFactory.Scored(simulation, reward).Uri, out int raw))
+                     continue;
+ 
+-                restorer.Restore(reward.Raw.WritableReflectedSource, raw);
++                restorer.Restore(reward.RestoreTarget, raw);
+                 restored++;
+             }
+ 
+diff -ruN --strip-trailing-cr a/Runtime/Trainings/GameFlow/Reward/TrainingRewardData.cs b/Runtime/Trainings/GameFlow/Reward/TrainingRewardData.cs
+--- a/Runtime/Trainings/GameFlow/Reward/TrainingRewardData.cs	2026-10-27 15:49:43.526921400 +0100
++++ b/Runtime/Trainings/GameFlow/Reward/TrainingRewardData.cs	2026-10-27 15:38:07.181445800 +0100
+@@ -1,6 +1,7 @@
+ using System;
+ using UnityEngine;
+ using WiDiD.Localization;
++using WiDiD.Reflection.Tracking;
+ 
+ namespace WiDiD.ImmersiveAPI.Trainings.GameFlow
+ {
+@@ -28,5 +29,14 @@
+         [field: SerializeField] public PerformanceIntValueSource Raw { get; set; } = new PerformanceIntValueSource();
+         [field: SerializeField] public PerformanceIntValueSource Min { get; set; } = new PerformanceIntValueSource();
+         [field: SerializeField] public PerformanceIntValueSource Max { get; set; } = new PerformanceIntValueSource();
++
++        // TEMPORARY-STORED-PROGRESS
++        /// <summary>
++        /// Where the stored training-wide point total is written at initialization (see
++        /// RewardRecorder.RestoreProgress). When disabled, the total is written into Raw instead.
++        /// </summary>
++        [field: SerializeField] public PerformanceIntValueSource RestoredTotal { get; set; } = new PerformanceIntValueSource();
++
++        public IReflectedValueSource RestoreTarget => RestoredTotal.WritableReflectedSource ?? Raw.WritableReflectedSource;
+     }
+ }
+diff -ruN --strip-trailing-cr a/Runtime/Trainings/GameFlow/Step/StepProgressController.cs b/Runtime/Trainings/GameFlow/Step/StepProgressController.cs
+--- a/Runtime/Trainings/GameFlow/Step/StepProgressController.cs	2026-10-27 15:49:43.465617000 +0100
++++ b/Runtime/Trainings/GameFlow/Step/StepProgressController.cs	2026-10-27 15:37:07.012641800 +0100
+@@ -83,7 +83,8 @@
+                     continue;
+ 
+                 nodeProgress.Completed = snapshot.Completed;
+-                nodeProgress.Score = snapshot.Score;
++                if (snapshot.Score.HasValue)
++                    nodeProgress.RecordScore(snapshot.Score.Value);
+                 restored++;
+             }
+ 
+@@ -95,6 +96,7 @@
+         public bool IsUnlocked(string stepId) => progress.TryGetValue(stepId, out TrainingNodeProgress nodeProgress) && nodeProgress.Unlocked;
+         public bool IsCompleted(string stepId) => progress.TryGetValue(stepId, out TrainingNodeProgress nodeProgress) && nodeProgress.Completed;
+         public float? GetScore(string stepId) => progress.TryGetValue(stepId, out TrainingNodeProgress nodeProgress) ? nodeProgress.Score : null;
++        public float? GetBestScore(string stepId) => progress.TryGetValue(stepId, out TrainingNodeProgress nodeProgress) ? nodeProgress.BestScore : null;
+ 
+         // Flat across every Strategy - Simulation-level progress (see SimulationProgressController)
+         // needs the whole Training's step count, not just one strategy's own.
+@@ -189,7 +191,7 @@
+         void RecordScore(string stepId, float? score)
+         {
+             if (score.HasValue)
+-                progress[stepId].Score = score;
++                progress[stepId].RecordScore(score.Value);
+         }
+ 
+         TimeSpan? DurationSinceLaunched(string stepId) => progress[stepId].LaunchedAt.HasValue ? DateTime.UtcNow - progress[stepId].LaunchedAt.Value : null;
+diff -ruN --strip-trailing-cr a/Runtime/Trainings/GameFlow/Strategy/StrategyProgressController.cs b/Runtime/Trainings/GameFlow/Strategy/StrategyProgressController.cs
+--- a/Runtime/Trainings/GameFlow/Strategy/StrategyProgressController.cs	2026-10-27 15:49:43.456560600 +0100
++++ b/Runtime/Trainings/GameFlow/Strategy/StrategyProgressController.cs	2026-10-27 15:37:37.700568300 +0100
+@@ -42,6 +42,11 @@
+         public TrainingStrategyData Current { get; private set; }
+ 
+         readonly Dictionary<string, TrainingNodeProgress> progress = new();
++
++        // Steps completed since each strategy's last Launch. An open attempt is automated even when
++        // the strategy was already completed (this session or a restored one), so a replay sends its
++        // own Progressed/Passed-or-Failed/Completed and is scored on the replayed steps only.
++        readonly Dictionary<string, HashSet<string>> attempts = new();
+         readonly IStatementSender sender;
+         readonly StepProgressController steps;
+ 
+@@ -62,6 +67,7 @@
+             Current = null;
+ 
+             progress.Clear();
++            attempts.Clear();
+             foreach (TrainingStrategyData strategy in gameFlow.Strategies)
+                 progress[strategy.Id] = new TrainingNodeProgress { PassingScore = strategy.PassingScore };
+ 
+@@ -71,6 +77,7 @@
+         public bool IsUnlocked(string strategyId) => progress.TryGetValue(strategyId, out TrainingNodeProgress nodeProgress) && nodeProgress.Unlocked;
+         public bool IsCompleted(string strategyId) => progress.TryGetValue(strategyId, out TrainingNodeProgress nodeProgress) && nodeProgress.Completed;
+         public float? GetScore(string strategyId) => progress.TryGetValue(strategyId, out TrainingNodeProgress nodeProgress) ? nodeProgress.Score : null;
++        public float? GetBestScore(string strategyId) => progress.TryGetValue(strategyId, out TrainingNodeProgress nodeProgress) ? nodeProgress.BestScore : null;
+ 
+         /// <summary>
+         /// Every precondition Launch enforces, as a question rather than a rejection. Single source
+@@ -98,6 +105,7 @@
+ 
+             Current = strategy;
+             progress[strategyId].LaunchedAt = DateTime.UtcNow;
++            attempts[strategyId] = new HashSet<string>();
+ 
+             return await sender.Send(Verbs.Launched, StrategyStatementFactory.Launched(simulation, strategy));
+         }
+@@ -124,11 +132,15 @@
+ 
+         async Task AutomateStrategy(TrainingStrategyData strategy, TrainingStepData completedStep)
+         {
+-            if (progress[strategy.Id].Completed)
+-                return; // Already finished this strategy - nothing left to automate.
++            bool inAttempt = attempts.TryGetValue(strategy.Id, out HashSet<string> attemptSteps);
++
++            if (inAttempt)
++                attemptSteps.Add(completedStep.Id);
++            else if (progress[strategy.Id].Completed)
++                return; // Already finished and not relaunched - nothing left to automate.
+ 
+             int totalSteps = strategy.Steps.Count;
+-            int completedSteps = strategy.Steps.Count(step => steps.IsCompleted(step.Id));
++            int completedSteps = inAttempt ? attemptSteps.Count : strategy.Steps.Count(step => steps.IsCompleted(step.Id));
+             float progressFraction = totalSteps == 0 ? 0f : (float)completedSteps / totalSteps;
+ 
+             await sender.Send(Verbs.Progressed, StrategyStatementFactory.Progressed(simulation, strategy, progressFraction, DurationSinceLaunched(strategy.Id)));
+@@ -136,7 +148,9 @@
+             if (!EndsStrategy(strategy, completedStep))
+                 return;
+ 
+-            float resolvedScore = ResolveCompletionScore(strategy);
++            attempts.Remove(strategy.Id);
++
++            float resolvedScore = ResolveCompletionScore(strategy, inAttempt ? attemptSteps : null);
+             bool passed = resolvedScore >= strategy.PassingScore;
+ 
+             TimeSpan? duration = DurationSinceLaunched(strategy.Id);
+@@ -146,7 +160,7 @@
+                 : StrategyStatementFactory.Failed(simulation, strategy, resolvedScore, duration));
+ 
+             progress[strategy.Id].Completed = true;
+-            progress[strategy.Id].Score = resolvedScore;
++            progress[strategy.Id].RecordScore(resolvedScore);
+             RecomputeUnlocks();
+ 
+             await sender.Send(Verbs.Completed, StrategyStatementFactory.Completed(simulation, strategy, resolvedScore, duration));
+@@ -169,7 +183,7 @@
+                     continue;
+ 
+                 progress[strategy.Id].Completed = true;
+-                progress[strategy.Id].Score = ResolveCompletionScore(strategy);
++                progress[strategy.Id].RecordScore(ResolveCompletionScore(strategy, null));
+             }
+ 
+             RecomputeUnlocks();
+@@ -179,10 +193,11 @@
+         // every step in this strategy was completed without one) - falls back to 1/0 based on the
+         // pass/fail decision itself (made using 0 as a neutral placeholder) rather than always
+         // reporting 0, which would contradict a statement that just said "Passed".
+-        float ResolveCompletionScore(TrainingStrategyData strategy)
++        // Restricted to attemptSteps when given, so a replay is scored on what was replayed.
++        float ResolveCompletionScore(TrainingStrategyData strategy, HashSet<string> attemptSteps)
+         {
+             float[] scores = strategy.Steps
+-                .Where(step => steps.IsCompleted(step.Id))
++                .Where(step => attemptSteps?.Contains(step.Id) ?? steps.IsCompleted(step.Id))
+                 .Select(step => steps.GetScore(step.Id))
+                 .Where(score => score.HasValue)
+                 .Select(score => score.Value)
+diff -ruN --strip-trailing-cr a/Runtime/Trainings/GameFlow/TrainingNodeProgress.cs b/Runtime/Trainings/GameFlow/TrainingNodeProgress.cs
+--- a/Runtime/Trainings/GameFlow/TrainingNodeProgress.cs	2026-10-27 15:49:43.503455300 +0100
++++ b/Runtime/Trainings/GameFlow/TrainingNodeProgress.cs	2026-10-27 15:37:04.595548200 +0100
+@@ -15,6 +15,10 @@
+         public bool Unlocked { get; set; }
+         public bool Completed { get; set; }
+         public float? Score { get; set; }
++
++        /// <summary>Highest Score ever recorded for this node, restored progress included (see RecordScore).</summary>
++        public float? BestScore { get; private set; }
++
+         public float PassingScore { get; set; }
+ 
+         // Set the moment Launched is sent - every other statement for this node (Progressed/Failed/
+@@ -26,5 +30,14 @@
+ 
+         /// <summary>Whether this node's own recorded Score met its own PassingScore - used by GameFlowUnlockEvaluator's RequireAllPreviousPassed check.</summary>
+         public bool Passed => Completed && Score.HasValue && Score.Value >= PassingScore;
++
++        /// <summary>Sets Score and raises BestScore when the new score beats it.</summary>
++        public void RecordScore(float score)
++        {
++            Score = score;
++
++            if (!BestScore.HasValue || score > BestScore.Value)
++                BestScore = score;
++        }
+     }
+ }
+diff -ruN --strip-trailing-cr a/Runtime/Trainings/GameFlow/TrainingRuntime.cs b/Runtime/Trainings/GameFlow/TrainingRuntime.cs
+--- a/Runtime/Trainings/GameFlow/TrainingRuntime.cs	2026-10-27 15:49:43.503455300 +0100
++++ b/Runtime/Trainings/GameFlow/TrainingRuntime.cs	2026-10-27 15:37:51.292906000 +0100
+@@ -109,6 +109,13 @@
+     public static class TrainingRuntime
+     {
+         public static bool IsReady { get; private set; }
++
++        /// <summary>
++        /// Whether a session is being set up right now, i.e. whether awaiting WhenReady will end.
++        /// Neither this nor IsReady being true means no session was ever handed over.
++        /// </summary>
++        public static bool IsInitializing => initializing;
++
+         public static TrainingSO ActiveTraining { get; private set; }
+         public static TrainingStrategyData CurrentStrategy => strategies?.Current;
+         public static TrainingStepData CurrentStep => steps?.Current;
+@@ -315,6 +322,10 @@
+         public static bool IsStepUnlocked(string stepId) => IsReady && steps.IsUnlocked(stepId);
+         public static bool IsStepCompleted(string stepId) => IsReady && steps.IsCompleted(stepId);
+ 
++        /// <summary>Best score ever recorded, restored progress included; null when not ready, unknown or never scored.</summary>
++        public static float? GetStrategyBestScore(string strategyId) => IsReady ? strategies.GetBestScore(strategyId) : null;
++        public static float? GetStepBestScore(string stepId) => IsReady ? steps.GetBestScore(stepId) : null;
++
+         /// <summary>
+         /// Whether LaunchStrategy would be accepted right now, and if not, why (see GameFlowCheck) -
+         /// runs the same check LaunchStrategy itself enforces, so the two can't disagree.

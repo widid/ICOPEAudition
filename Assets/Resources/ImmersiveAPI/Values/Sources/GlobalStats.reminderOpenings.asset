@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 195b8a7cee8bb1c42a39a2f1d71a982a, type: 3}
+  m_Name: GlobalStats.reminderOpenings
+  m_EditorClassIdentifier: widid.reflection.runtime::WiDiD.Reflection.Tracking.ReflectedIntSourceSO
+  <Data>k__BackingField:
+    <TargetGuid>k__BackingField: 
+    <ComponentTypeName>k__BackingField: 
+    <MemberPath>k__BackingField: Data/reminderOpenings
+    <LastKnownSceneName>k__BackingField: 
+    <LastKnownScenePath>k__BackingField: 
+    <LastKnownObjectName>k__BackingField: 
+    <DirectAsset>k__BackingField: {fileID: 11400000, guid: 55286cc9ad076424aa6675c1cb562589, type: 2}

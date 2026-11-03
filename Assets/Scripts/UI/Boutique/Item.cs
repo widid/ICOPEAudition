@@ -31,8 +31,7 @@ namespace UI.Boutique{
         /// records the purchase, disables the purchase button, and plays a sound effect.
         /// </summary>
         private void Buy(){
-            if (GameManager.Instance.Money >= price) {
-                GameManager.Instance.Money -= price;
+            if (GameManager.Instance.TrySpendCoins(price)) {
                 objectToDisplay.SetActive(true);
                 GameManager.AddBoughtItem(objectToDisplay.name);
                 _button.interactable = false;

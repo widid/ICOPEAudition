@@ -1,6 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Audio;
+using ICOPE.Immersive.Bootstrap;
+using ICOPE.Immersive.Progress;
+using ICOPE.Immersive.Rewards;
+using ICOPE.Immersive.Tracking;
 using UnityEngine;
 using UnityEngine.UI;
 using PatientData.AlgoData;
@@ -33,16 +38,23 @@ namespace Managers{
         public OpenFolder openFolder;
         [HideInInspector] public SpriteDocType selectType = SpriteDocType.Man;
 
+        public IClinicalCaseTracker CaseTracker{ get; private set; } = new NullCaseTracker();
+        public IPatientProgressProvider PatientProgress{ get; private set; } = new UnrestrictedProgressProvider();
+
         #region Structures
 
-        public int Money{
-            get => money;
-            set{
-                int previousMoney = money;
-                money = value;
-                PlayerPrefs.SetInt("money", money); //Debug!!! SET argent
-                OnMoneyChanged?.Invoke(money, money - previousMoney);
-            }
+        public int Money => wallet.Balance;
+
+        public void EarnCoins(int coins){
+            wallet.Earn(coins);
+            OnMoneyChanged?.Invoke(Money, coins);
+        }
+
+        public bool TrySpendCoins(int coins){
+            if (!wallet.TrySpend(coins)) return false;
+
+            OnMoneyChanged?.Invoke(Money, -coins);
+            return true;
         }
 
         public bool IsTutorialEnable{
@@ -78,7 +90,7 @@ namespace Managers{
 
         private readonly string _pathXmlFile = "Assets/Resources/Data/Tutorial.xml";
         private readonly string _pathXsdFile = "Assets/Resources/Data/TutorialSchema.xsd";
-        [Header("Money")] [SerializeField] private int money;
+        private ICoinWallet wallet = new CoinWallet(0);
 
         [Header("Menus")] [SerializeField] private GameObject mainMenu;
         [SerializeField] private Button playButton;
@@ -111,6 +123,8 @@ namespace Managers{
         private bool _isTutorialUIEnable;
         private bool _tutorialAnswer = true;
         private bool _genderAnswer = false;
+        private bool levelsReady;
+        private bool immersiveReady;
 
         #endregion
 
@@ -163,6 +177,7 @@ namespace Managers{
 
         // LOAD MAIN MENU
         internal void LoadMainMenu(){
+            CaseTracker.CaseAbandoned();
             AudioManager.StopCurrentSfx();
             ClearScreen();
             mainMenu.SetActive(true);
@@ -171,6 +186,7 @@ namespace Managers{
 
         // LOAD GAME MENU
         internal void LoadGameMenu(){
+            CaseTracker.CaseAbandoned();
             AudioManager.PlaySFX("ambiant", "AMBIANT");
             ClearScreen();
             ClearAnimation();
@@ -240,9 +256,11 @@ namespace Managers{
                 scoreBackground.sprite = sprite;
             }
 
+            PatientData.PatientData patient = levelsData.patientByLevel[currentLevel].patientsCase[currentPatient];
+            CaseTracker.CaseStarted(patient.caseId);
+
             // SET ALGO STEP BY DEFAULT LOAD STEP 0 (RESTART THE PARCOURS EVEN IF PLAYER STOP DURING)
-            GameStateManager.SetStep(
-                levelsData.patientByLevel[currentLevel].patientsCase[currentPatient].steps[0].type);
+            GameStateManager.SetStep(patient.steps[0].type);
         }
 
         // PLAY AUDIO
@@ -315,7 +333,8 @@ namespace Managers{
             StartCoroutine(PatientDataJsonLoader.LoadLevelData(
                 levels => {
                     levelsData = levels;
-                    playButton.interactable = true;
+                    levelsReady = true;
+                    TryCompleteStartup();
                     levelSelector.ActualizeLevelList();
                     Debug.Log($"Le niveau \"{levels.patientByLevel[^1].name}\" est prêt !");
                 },
@@ -332,13 +351,35 @@ namespace Managers{
                 }
             ));
 
+            StartCoroutine(InitializeImmersive());
             LoadListItems();
 
-            Money = PlayerPrefs.GetInt("money", 0); //Debug!!! GET argent
             isTutorialEnable = PlayerPrefs.GetInt("enableTutorial") == 1; //Debug!!! GET tuto activé
             AudioManager.PlayBGM("skyline");
 
             LoadMainMenu();
+        }
+
+        // Waits for the Immersive session and its restored progress before allowing play.
+        private IEnumerator InitializeImmersive(){
+            bool trackingEnabled = !alwaysRight && !canAccessAllLevel;
+            Task<ImmersiveServices> services = ImmersiveServicesFactory.CreateAsync(trackingEnabled);
+            yield return new WaitUntil(() => services.IsCompleted);
+
+            CaseTracker = services.Result.Tracker;
+            PatientProgress = services.Result.Progress;
+            wallet = services.Result.Wallet;
+            OnMoneyChanged?.Invoke(Money, 0);
+            immersiveReady = true;
+            TryCompleteStartup();
+        }
+
+        // Once levels and restored progress are both ready, selects the last unlocked patient and allows play.
+        private void TryCompleteStartup(){
+            if (!levelsReady || !immersiveReady) return;
+
+            levelSelector.SelectLastUnlockedPatient();
+            playButton.interactable = true;
         }
 
         #endregion

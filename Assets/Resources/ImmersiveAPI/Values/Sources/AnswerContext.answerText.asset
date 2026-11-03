@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bbd549a068cc2a4c8b0bf25998050a2, type: 3}
+  m_Name: AnswerContext.answerText
+  m_EditorClassIdentifier: widid.reflection.runtime::WiDiD.Reflection.Tracking.ReflectedStringSourceSO
+  <Data>k__BackingField:
+    <TargetGuid>k__BackingField: 
+    <ComponentTypeName>k__BackingField: 
+    <MemberPath>k__BackingField: Data/answerText
+    <LastKnownSceneName>k__BackingField: 
+    <LastKnownScenePath>k__BackingField: 
+    <LastKnownObjectName>k__BackingField: 
+    <DirectAsset>k__BackingField: {fileID: 11400000, guid: 689b242b45b369545a7a6fb796779ac0, type: 2}

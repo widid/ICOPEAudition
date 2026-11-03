@@ -1,0 +1,17 @@
+{
+    "name": "ICOPE.Immersive",
+    "rootNamespace": "ICOPE.Immersive",
+    "references": [
+        "widid.immersiveapi3.runtime",
+        "widid.immersiveapi3.xapi"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

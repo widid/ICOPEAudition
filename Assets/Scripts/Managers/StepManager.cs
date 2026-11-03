@@ -1,3 +1,4 @@
+using ICOPE.Immersive.Tracking;
 using PatientData.AlgoData;
 using PatientData.Steps;
 using System.Collections.Generic;
@@ -249,6 +250,8 @@ namespace Managers {
                     break;
             }
 
+            GameManager.Instance.CaseTracker.StepStarted(CurrentStepRef());
+
             // Display current step
             displayList[_currentDisplay].SetActive(true);
 
@@ -415,7 +418,9 @@ namespace Managers {
             bool isStepCompleted = isDiagnosticCompleted && isActionCompleted;
 
             if (isStepCompleted && _indexStep < _patientData.steps.Count) {
-                // LOAD NEXT STEP 
+                GameManager.Instance.CaseTracker.StepFinished(CurrentStepRef());
+
+                // LOAD NEXT STEP
                 _indexStep++;
                 if (_indexStep >= _patientData.steps.Count) {
                     GameManager.Instance.GameStateManager.SaveShowScores();
@@ -505,6 +510,10 @@ namespace Managers {
             bool isCorrectAnswer = IsAnswerCorrect(answerData, sourceIndex);
             string feedBackText = isCorrectAnswer ? "Bonne réponse !" : "Mauvaise réponse !";
 
+            GameManager.Instance.CaseTracker.AnswerSubmitted(CurrentStepRef(),
+                _answerState == AnswerState.Diagnostic ? AnswerPhase.Diagnostic : AnswerPhase.Action,
+                answerData[sourceIndex].answerText, isCorrectAnswer);
+
             TipsManager.Instance.HideButton();
             if (_step == Step.CasePresentation && !isCorrectAnswer) {
                 TipsManager.Instance.InitTips(RappelTip.Algorithme);
@@ -561,6 +570,11 @@ namespace Managers {
             }
 
             return answerData[index].isCorrect;
+        }
+
+        private StepRef CurrentStepRef() {
+            return new StepRef(_patientData.caseId, _indexStep, _patientData.steps[_indexStep].type.ToString(),
+                _indexStep == _patientData.steps.Count - 1);
         }
 
         private AnswerDisplayState GetCurrentAnswerDisplayState() {

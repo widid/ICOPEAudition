@@ -1,0 +1,5544 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7844326456538430301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_04eb326b-4cb6-408d-a109-9e1db53e692d
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317735
+  - rid: 2867449435581317736
+  - rid: 2867449435581317737
+  - rid: 2867449435581317738
+  - rid: 2867449435581317739
+  - rid: 2867449435581317740
+  - rid: 2867449435581317741
+  edges:
+  - GUID: 626820ea-0955-44fa-824d-3bf972c41703
+    owner: {fileID: -7844326456538430301}
+    inputNodeGUID: 1d02fe34-5253-4124-8088-7e7f195483e1
+    outputNodeGUID: 70c57b27-ff96-45fe-984d-472e81d95453
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 0ed047ae-e754-41f0-94cc-852107859d08
+    owner: {fileID: -7844326456538430301}
+    inputNodeGUID: 4436efee-6949-4834-88de-44adf48d12a8
+    outputNodeGUID: 1d02fe34-5253-4124-8088-7e7f195483e1
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 2e188d49-3d65-4d54-9e32-c97a41922218
+    owner: {fileID: -7844326456538430301}
+    inputNodeGUID: d62dedb5-7188-4aee-8789-c9394c3c5c10
+    outputNodeGUID: 4436efee-6949-4834-88de-44adf48d12a8
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 7f41673b-82e4-40b5-917e-38f0a908d982
+    owner: {fileID: -7844326456538430301}
+    inputNodeGUID: 686b5e23-4c50-48f0-8b93-d7edc920119c
+    outputNodeGUID: d62dedb5-7188-4aee-8789-c9394c3c5c10
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 7cf6385b-8d37-4e86-b787-91ae8597a527
+    owner: {fileID: -7844326456538430301}
+    inputNodeGUID: 10ed1d5f-8d07-4ec4-b530-1f77f61f620f
+    outputNodeGUID: 686b5e23-4c50-48f0-8b93-d7edc920119c
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 1b32a017-d406-4273-bfa2-bae1b8436774
+    owner: {fileID: -7844326456538430301}
+    inputNodeGUID: c6e18448-8347-487a-9ab7-8c758e6edaa9
+    outputNodeGUID: 10ed1d5f-8d07-4ec4-b530-1f77f61f620f
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 04eb326b-4cb6-408d-a109-9e1db53e692d
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317735
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 70c57b27-ff96-45fe-984d-472e81d95453
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 0_1_michel.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317736
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 1d02fe34-5253-4124-8088-7e7f195483e1
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 0_1_michel.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317737
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 4436efee-6949-4834-88de-44adf48d12a8
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 0_1_michel.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317738
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: d62dedb5-7188-4aee-8789-c9394c3c5c10
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. Otoscopie
+          - localizationIndex: 0
+            value: 4. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 0_1_michel.s03_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317739
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 686b5e23-4c50-48f0-8b93-d7edc920119c
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 5. Questionnaire HHIE-S
+          - localizationIndex: 0
+            value: 5. HHIE-S questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 0_1_michel.s04_hhies
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317740
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 10ed1d5f-8d07-4ec4-b530-1f77f61f620f
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1500
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 6. Test de Weber
+          - localizationIndex: 0
+            value: 6. Weber test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 0_1_michel.s05_webertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317741
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: c6e18448-8347-487a-9ab7-8c758e6edaa9
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1800
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "7. Audiom\xE9trie"
+          - localizationIndex: 0
+            value: 7. Audiometry
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 0_1_michel.s06_audiometry
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &-4701402856615240262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_50c8890b-3d53-4d07-a554-6e8629530188
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317781
+  - rid: 2867449435581317782
+  - rid: 2867449435581317783
+  - rid: 2867449435581317784
+  - rid: 2867449435581317785
+  - rid: 2867449435581317786
+  - rid: 2867449435581317787
+  edges:
+  - GUID: 8422b4db-7e09-422d-860b-bfeb9fc9b9ae
+    owner: {fileID: -4701402856615240262}
+    inputNodeGUID: a3fa8e16-904f-4457-851b-fad574a26516
+    outputNodeGUID: 2855b265-e427-47fd-bba0-425932bb187e
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: fb02545c-5257-4772-975e-41078cccdcd0
+    owner: {fileID: -4701402856615240262}
+    inputNodeGUID: 45f6169b-53ed-4c5b-a991-dbbb0b0d0fc8
+    outputNodeGUID: a3fa8e16-904f-4457-851b-fad574a26516
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: c4aefd9a-7c0e-4979-8dab-cb742ea5731c
+    owner: {fileID: -4701402856615240262}
+    inputNodeGUID: c39b5b1f-2e18-4ab2-b615-1255bd5bb92d
+    outputNodeGUID: 45f6169b-53ed-4c5b-a991-dbbb0b0d0fc8
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: eaf67005-ca25-4a9c-bf4f-4fa1bee5a17d
+    owner: {fileID: -4701402856615240262}
+    inputNodeGUID: 0400c5a3-3c06-4bf6-933b-287426837075
+    outputNodeGUID: c39b5b1f-2e18-4ab2-b615-1255bd5bb92d
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: cad35a16-48f3-4d3b-b380-c2e21b091845
+    owner: {fileID: -4701402856615240262}
+    inputNodeGUID: 99963826-d21e-4e1a-96d3-ca18bf412e1a
+    outputNodeGUID: 0400c5a3-3c06-4bf6-933b-287426837075
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4ee15e53-e932-469e-81d7-5ab34d6bfc57
+    owner: {fileID: -4701402856615240262}
+    inputNodeGUID: 722e2262-1d39-40c8-a7a8-62899349c150
+    outputNodeGUID: 99963826-d21e-4e1a-96d3-ca18bf412e1a
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 50c8890b-3d53-4d07-a554-6e8629530188
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317781
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 2855b265-e427-47fd-bba0-425932bb187e
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_1_rachel.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317782
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: a3fa8e16-904f-4457-851b-fad574a26516
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_1_rachel.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317783
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 45f6169b-53ed-4c5b-a991-dbbb0b0d0fc8
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_1_rachel.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317784
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: c39b5b1f-2e18-4ab2-b615-1255bd5bb92d
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. Otoscopie
+          - localizationIndex: 0
+            value: 4. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_1_rachel.s03_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317785
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 0400c5a3-3c06-4bf6-933b-287426837075
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 5. Questionnaire HHIE-S
+          - localizationIndex: 0
+            value: 5. HHIE-S questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_1_rachel.s04_hhies
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317786
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 99963826-d21e-4e1a-96d3-ca18bf412e1a
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1500
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 6. Test de Weber
+          - localizationIndex: 0
+            value: 6. Weber test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_1_rachel.s05_webertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317787
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 722e2262-1d39-40c8-a7a8-62899349c150
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1800
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "7. Audiom\xE9trie"
+          - localizationIndex: 0
+            value: 7. Audiometry
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_1_rachel.s06_audiometry
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &-3937575243086459557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_ca0762f1-24c5-43f6-b26e-efff9259c202
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317827
+  - rid: 2867449435581317828
+  - rid: 2867449435581317829
+  - rid: 2867449435581317830
+  edges:
+  - GUID: c4a95453-26c6-483d-b724-8f0e8228a209
+    owner: {fileID: -3937575243086459557}
+    inputNodeGUID: 0a662a7b-690d-4f0b-b7db-db5e6126c2aa
+    outputNodeGUID: 245ef206-4d7d-4c4d-9de9-b17d585b4910
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 30a3a0b0-d6b7-4985-98a3-ce608c2e5afd
+    owner: {fileID: -3937575243086459557}
+    inputNodeGUID: 67c900cd-3475-4c64-b102-45782e39dc57
+    outputNodeGUID: 0a662a7b-690d-4f0b-b7db-db5e6126c2aa
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 3f3958d0-d0dd-406e-9dd5-7e15a7b70d27
+    owner: {fileID: -3937575243086459557}
+    inputNodeGUID: a8751973-38bc-4820-9504-a62e6ee4d19e
+    outputNodeGUID: 67c900cd-3475-4c64-b102-45782e39dc57
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: ca0762f1-24c5-43f6-b26e-efff9259c202
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317827
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 245ef206-4d7d-4c4d-9de9-b17d585b4910
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_3_vincent.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317828
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 0a662a7b-690d-4f0b-b7db-db5e6126c2aa
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Rep\xE9rage et otoscopie"
+          - localizationIndex: 0
+            value: 2. Screening and otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_3_vincent.s01_gonogootoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317829
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 67c900cd-3475-4c64-b102-45782e39dc57
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 3. HHIE-S et Weber
+          - localizationIndex: 0
+            value: 3. HHIE-S and Weber
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_3_vincent.s02_hhiesweber
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317830
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: a8751973-38bc-4820-9504-a62e6ee4d19e
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "4. Audiom\xE9trie"
+          - localizationIndex: 0
+            value: 4. Audiometry
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_3_vincent.s03_audiometry
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &-2777995291596423165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_ac7f4a50-39ec-48d4-84cd-db0633c0e80a
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317833
+  - rid: 2867449435581317834
+  - rid: 2867449435581317835
+  edges:
+  - GUID: a46031e0-6eb8-4c21-803d-402d8937e3fe
+    owner: {fileID: -2777995291596423165}
+    inputNodeGUID: bfb28404-c7b3-4188-b58f-e6b8218857f1
+    outputNodeGUID: de3630f1-d59a-4a55-a47f-ba3ab4a55c0a
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 9dbefd82-9929-4ceb-91f3-9cc37d6d1832
+    owner: {fileID: -2777995291596423165}
+    inputNodeGUID: 7ea66a7d-1ce3-40f6-8f16-418ecaaeb52c
+    outputNodeGUID: bfb28404-c7b3-4188-b58f-e6b8218857f1
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: ac7f4a50-39ec-48d4-84cd-db0633c0e80a
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317833
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: de3630f1-d59a-4a55-a47f-ba3ab4a55c0a
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_4_frank.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317834
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: bfb28404-c7b3-4188-b58f-e6b8218857f1
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_4_frank.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317835
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 7ea66a7d-1ce3-40f6-8f16-418ecaaeb52c
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_4_frank.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &-2647670799191674630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_e88eea68-2811-464a-94ee-15ca9e958e75
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317821
+  - rid: 2867449435581317822
+  - rid: 2867449435581317823
+  - rid: 2867449435581317824
+  - rid: 2867449435581317825
+  edges:
+  - GUID: 76cee398-b9ad-4c1a-bf54-83c52730a281
+    owner: {fileID: -2647670799191674630}
+    inputNodeGUID: 763c0265-e6f1-4861-a747-1c9a8ea72ad0
+    outputNodeGUID: 829b87da-7901-4172-8594-843e1cb4161d
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: c6a1ed6f-c705-4966-b356-31369916fa97
+    owner: {fileID: -2647670799191674630}
+    inputNodeGUID: 3652ffe2-f919-4ec4-a2a1-3915b6277526
+    outputNodeGUID: 763c0265-e6f1-4861-a747-1c9a8ea72ad0
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ed94e4ea-233a-48e3-aa71-65fcb79aca2c
+    owner: {fileID: -2647670799191674630}
+    inputNodeGUID: 3e0efcad-00d8-4ce7-8bf1-b4d046cff39c
+    outputNodeGUID: 3652ffe2-f919-4ec4-a2a1-3915b6277526
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: eb42874a-442e-4aea-98a3-562cd9928849
+    owner: {fileID: -2647670799191674630}
+    inputNodeGUID: a1660091-2294-4fad-b984-37742a5b1cb6
+    outputNodeGUID: 3e0efcad-00d8-4ce7-8bf1-b4d046cff39c
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: e88eea68-2811-464a-94ee-15ca9e958e75
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317821
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 829b87da-7901-4172-8594-843e1cb4161d
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_2_damien.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317822
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 763c0265-e6f1-4861-a747-1c9a8ea72ad0
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_2_damien.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317823
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 3652ffe2-f919-4ec4-a2a1-3915b6277526
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_2_damien.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317824
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 3e0efcad-00d8-4ce7-8bf1-b4d046cff39c
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. HHIE-S et Weber
+          - localizationIndex: 0
+            value: 4. HHIE-S and Weber
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_2_damien.s03_hhiesweber
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317825
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: a1660091-2294-4fad-b984-37742a5b1cb6
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "5. Audiom\xE9trie"
+          - localizationIndex: 0
+            value: 5. Audiometry
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_2_damien.s04_audiometry
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &-2509060083433080235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_9e322d76-af46-415b-bc0c-15926ece339a
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317767
+  - rid: 2867449435581317768
+  - rid: 2867449435581317769
+  - rid: 2867449435581317770
+  edges:
+  - GUID: 4f6d4e9a-49a6-42a0-ac8e-b8998304e750
+    owner: {fileID: -2509060083433080235}
+    inputNodeGUID: 36cfa4dc-1551-4022-b37e-677d610a54b2
+    outputNodeGUID: beedcfdb-edfe-4b9c-b023-bf8a8347abe4
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 077d9214-4e24-4a86-8b20-380c2f7c1b88
+    owner: {fileID: -2509060083433080235}
+    inputNodeGUID: fe0da4c9-b023-44ee-8726-9f5865b6c202
+    outputNodeGUID: 36cfa4dc-1551-4022-b37e-677d610a54b2
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 9c1e1e0e-e448-40e5-9cd0-e3d296ac4fa0
+    owner: {fileID: -2509060083433080235}
+    inputNodeGUID: 9c59a6c7-2e5d-4761-9cf6-2fab29d4dad1
+    outputNodeGUID: fe0da4c9-b023-44ee-8726-9f5865b6c202
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 9e322d76-af46-415b-bc0c-15926ece339a
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317767
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: beedcfdb-edfe-4b9c-b023-bf8a8347abe4
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_4_gerard.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317768
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 36cfa4dc-1551-4022-b37e-677d610a54b2
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_4_gerard.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317769
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: fe0da4c9-b023-44ee-8726-9f5865b6c202
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_4_gerard.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317770
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 9c59a6c7-2e5d-4761-9cf6-2fab29d4dad1
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. Otoscopie
+          - localizationIndex: 0
+            value: 4. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_4_gerard.s03_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077bcecf42e93bb4ba0297feca88e9d0, type: 3}
+  m_Name: GameFlow_ICOPE_Audition
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.GameFlowGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317734
+  - rid: 2867449435581317742
+  - rid: 2867449435581317744
+  - rid: 2867449435581317754
+  - rid: 2867449435581317760
+  - rid: 2867449435581317771
+  - rid: 2867449435581317774
+  - rid: 2867449435581317788
+  - rid: 2867449435581317790
+  - rid: 2867449435581317795
+  - rid: 2867449435581317799
+  - rid: 2867449435581317807
+  - rid: 2867449435581317813
+  - rid: 2867449435581317826
+  - rid: 2867449435581317832
+  edges:
+  - GUID: e37f7366-68ca-4d8b-9c2d-4587113655e0
+    owner: {fileID: 11400000}
+    inputNodeGUID: 99ad7462-90e3-48f0-a810-3d04e416b72d
+    outputNodeGUID: 04eb326b-4cb6-408d-a109-9e1db53e692d
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: c259af88-8543-4cfb-b3db-bdc1b3b93176
+    owner: {fileID: 11400000}
+    inputNodeGUID: 270c7170-e69d-4cd5-8dde-f79f9de24a9d
+    outputNodeGUID: 99ad7462-90e3-48f0-a810-3d04e416b72d
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4b6f2540-947a-4025-aa4d-263408e67bb8
+    owner: {fileID: 11400000}
+    inputNodeGUID: 60eb368a-9c37-4783-ac15-aa53a665f153
+    outputNodeGUID: 270c7170-e69d-4cd5-8dde-f79f9de24a9d
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 54f12a15-5d53-4ef4-b375-2af3272bdfca
+    owner: {fileID: 11400000}
+    inputNodeGUID: 9e322d76-af46-415b-bc0c-15926ece339a
+    outputNodeGUID: 60eb368a-9c37-4783-ac15-aa53a665f153
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 32cd1490-ed81-4674-b1aa-140f3e9659aa
+    owner: {fileID: 11400000}
+    inputNodeGUID: 299e8767-bcd1-4e22-af57-c66af826da1c
+    outputNodeGUID: 9e322d76-af46-415b-bc0c-15926ece339a
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: dcbb5e7b-9092-4c64-8585-606aefa1bb43
+    owner: {fileID: 11400000}
+    inputNodeGUID: 50c8890b-3d53-4d07-a554-6e8629530188
+    outputNodeGUID: 299e8767-bcd1-4e22-af57-c66af826da1c
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ef865fb5-fc79-4361-aa33-38133674296b
+    owner: {fileID: 11400000}
+    inputNodeGUID: 6e2dfeec-542f-4931-9b29-7c85d8118bb8
+    outputNodeGUID: 50c8890b-3d53-4d07-a554-6e8629530188
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: d7a1670b-f277-4a5b-8ee9-855b4481fd7b
+    owner: {fileID: 11400000}
+    inputNodeGUID: df92f168-8d6f-4041-a69c-f6e5b93b5ef3
+    outputNodeGUID: 6e2dfeec-542f-4931-9b29-7c85d8118bb8
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 57e46208-bfc1-4608-80d6-e1327648590b
+    owner: {fileID: 11400000}
+    inputNodeGUID: 601e5e07-2ba3-4465-8275-e9636cd5ec3c
+    outputNodeGUID: df92f168-8d6f-4041-a69c-f6e5b93b5ef3
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 2038887a-dc99-447f-ada3-4b377951469c
+    owner: {fileID: 11400000}
+    inputNodeGUID: 2b953bb5-1ed2-4c82-a0d0-2dc06ff06a5a
+    outputNodeGUID: 601e5e07-2ba3-4465-8275-e9636cd5ec3c
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 2abc23d8-23ae-473c-b74c-2016d8af3914
+    owner: {fileID: 11400000}
+    inputNodeGUID: e217db02-de39-418b-9951-ff720abe6f29
+    outputNodeGUID: 2b953bb5-1ed2-4c82-a0d0-2dc06ff06a5a
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: fcb5c9b4-bded-4421-aeb2-f8091dfdafd3
+    owner: {fileID: 11400000}
+    inputNodeGUID: e88eea68-2811-464a-94ee-15ca9e958e75
+    outputNodeGUID: e217db02-de39-418b-9951-ff720abe6f29
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 272425cd-2126-4420-ab9b-46660fd50e13
+    owner: {fileID: 11400000}
+    inputNodeGUID: ca0762f1-24c5-43f6-b26e-efff9259c202
+    outputNodeGUID: e88eea68-2811-464a-94ee-15ca9e958e75
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 94d62a31-784e-4316-8638-2320ac306f75
+    owner: {fileID: 11400000}
+    inputNodeGUID: ac7f4a50-39ec-48d4-84cd-db0633c0e80a
+    outputNodeGUID: ca0762f1-24c5-43f6-b26e-efff9259c202
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 339, y: 63, z: 0}
+  scale: {x: 0.57175326, y: 0.57175326, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317734
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 04eb326b-4cb6-408d-a109-9e1db53e692d
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Tutoriel - Michel
+          - localizationIndex: 0
+            value: Tutorial - Michel
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 0_1_michel
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: -7844326456538430301}
+    - rid: 2867449435581317742
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 99ad7462-90e3-48f0-a810-3d04e416b72d
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 220
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Facile - Jeanne
+          - localizationIndex: 0
+            value: Easy - Jeanne
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 3242549764136651080}
+    - rid: 2867449435581317744
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 270c7170-e69d-4cd5-8dde-f79f9de24a9d
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 320
+          y: 220
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Facile - Elisabeth
+          - localizationIndex: 0
+            value: Easy - Elisabeth
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_2_elisabeth
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 6549656310821778600}
+    - rid: 2867449435581317754
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 60eb368a-9c37-4783-ac15-aa53a665f153
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 640
+          y: 220
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Facile - Denise
+          - localizationIndex: 0
+            value: Easy - Denise
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_3_denise
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 5658411551787870830}
+    - rid: 2867449435581317760
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 9e322d76-af46-415b-bc0c-15926ece339a
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 960
+          y: 220
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "Facile - G\xE9rard"
+          - localizationIndex: 0
+            value: "Easy - G\xE9rard"
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_4_gerard
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: -2509060083433080235}
+    - rid: 2867449435581317771
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 299e8767-bcd1-4e22-af57-c66af826da1c
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1280
+          y: 220
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Facile - Lydie
+          - localizationIndex: 0
+            value: Easy - Lydie
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_5_lydie
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 4826824822481479315}
+    - rid: 2867449435581317774
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 50c8890b-3d53-4d07-a554-6e8629530188
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 440
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Moyen - Rachel
+          - localizationIndex: 0
+            value: Medium - Rachel
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_1_rachel
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: -4701402856615240262}
+    - rid: 2867449435581317788
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 6e2dfeec-542f-4931-9b29-7c85d8118bb8
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 320
+          y: 440
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Moyen - Alain
+          - localizationIndex: 0
+            value: Medium - Alain
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_2_alain
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 7351928384074296055}
+    - rid: 2867449435581317790
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: df92f168-8d6f-4041-a69c-f6e5b93b5ef3
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 640
+          y: 440
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Moyen - Roger
+          - localizationIndex: 0
+            value: Medium - Roger
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_3_roger
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 3226419888916018374}
+    - rid: 2867449435581317795
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 601e5e07-2ba3-4465-8275-e9636cd5ec3c
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 960
+          y: 440
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Moyen - Marie
+          - localizationIndex: 0
+            value: Medium - Marie
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_4_marie
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 2260946491872542309}
+    - rid: 2867449435581317799
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 2b953bb5-1ed2-4c82-a0d0-2dc06ff06a5a
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1280
+          y: 440
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "Moyen - H\xE9l\xE8ne"
+          - localizationIndex: 0
+            value: "Medium - H\xE9l\xE8ne"
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_5_helene
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 4802281051362303210}
+    - rid: 2867449435581317807
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: e217db02-de39-418b-9951-ff720abe6f29
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 660
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Difficile - Philippe
+          - localizationIndex: 0
+            value: Hard - Philippe
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_1_philippe
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: 4395483847255487928}
+    - rid: 2867449435581317813
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: e88eea68-2811-464a-94ee-15ca9e958e75
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 320
+          y: 660
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Difficile - Damien
+          - localizationIndex: 0
+            value: Hard - Damien
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_2_damien
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: -2647670799191674630}
+    - rid: 2867449435581317826
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: ca0762f1-24c5-43f6-b26e-efff9259c202
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 640
+          y: 660
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Difficile - Vincent
+          - localizationIndex: 0
+            value: Hard - Vincent
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_3_vincent
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 0
+        stepGraph: {fileID: -3937575243086459557}
+    - rid: 2867449435581317832
+      type: {class: StrategyNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: ac7f4a50-39ec-48d4-84cd-db0633c0e80a
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 960
+          y: 660
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        strategyName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: Difficile - Frank
+          - localizationIndex: 0
+            value: Hard - Frank
+          mandatoryLanguagesIndex: 0000000001000000i
+        strategyDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_4_frank
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 0
+        completeSimulation: 1
+        stepGraph: {fileID: -2777995291596423165}
+--- !u!114 &2260946491872542309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_601e5e07-2ba3-4465-8275-e9636cd5ec3c
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317800
+  - rid: 2867449435581317801
+  - rid: 2867449435581317802
+  - rid: 2867449435581317803
+  - rid: 2867449435581317804
+  - rid: 2867449435581317805
+  edges:
+  - GUID: c433d6ef-75a4-4722-820c-aff97dd77ae5
+    owner: {fileID: 2260946491872542309}
+    inputNodeGUID: 09d1b946-419c-4540-afd5-c6f9964aa6b4
+    outputNodeGUID: f4a03570-a04f-4459-ae46-d539539e47ce
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 5825ddfe-066f-4b83-b0ac-6efbb70c9234
+    owner: {fileID: 2260946491872542309}
+    inputNodeGUID: 0e687630-4f85-4a99-83db-3ddc8f06abab
+    outputNodeGUID: 09d1b946-419c-4540-afd5-c6f9964aa6b4
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 7e10a2c5-040b-40a1-a203-83dbf2adb7df
+    owner: {fileID: 2260946491872542309}
+    inputNodeGUID: 768ab7aa-8a41-492e-8739-0614551369e7
+    outputNodeGUID: 0e687630-4f85-4a99-83db-3ddc8f06abab
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ba429e79-b6bf-425c-ad84-feb474caa532
+    owner: {fileID: 2260946491872542309}
+    inputNodeGUID: fd0f68ed-4393-42fb-b6ba-b9c72959bb30
+    outputNodeGUID: 768ab7aa-8a41-492e-8739-0614551369e7
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 8c650941-6ded-4715-9f95-ac3b5984b503
+    owner: {fileID: 2260946491872542309}
+    inputNodeGUID: 19d87192-83b6-48e4-8a17-187970c36f6a
+    outputNodeGUID: fd0f68ed-4393-42fb-b6ba-b9c72959bb30
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 601e5e07-2ba3-4465-8275-e9636cd5ec3c
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317800
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: f4a03570-a04f-4459-ae46-d539539e47ce
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_4_marie.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317801
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 09d1b946-419c-4540-afd5-c6f9964aa6b4
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 2. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_4_marie.s01_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317802
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 0e687630-4f85-4a99-83db-3ddc8f06abab
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 3. Otoscopie
+          - localizationIndex: 0
+            value: 3. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_4_marie.s02_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317803
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 768ab7aa-8a41-492e-8739-0614551369e7
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. Questionnaire HHIE-S
+          - localizationIndex: 0
+            value: 4. HHIE-S questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_4_marie.s03_hhies
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317804
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: fd0f68ed-4393-42fb-b6ba-b9c72959bb30
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 5. Test de Weber
+          - localizationIndex: 0
+            value: 5. Weber test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_4_marie.s04_webertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317805
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 19d87192-83b6-48e4-8a17-187970c36f6a
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1500
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "6. Audiom\xE9trie"
+          - localizationIndex: 0
+            value: 6. Audiometry
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_4_marie.s05_audiometry
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &3226419888916018374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_df92f168-8d6f-4041-a69c-f6e5b93b5ef3
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317797
+  - rid: 2867449435581317798
+  edges:
+  - GUID: 729f84b2-b2ad-42e3-9ce5-bdeaceea32d6
+    owner: {fileID: 3226419888916018374}
+    inputNodeGUID: b0a589d8-20f0-4772-9130-c7a5a06963cc
+    outputNodeGUID: 3ecddda0-ab10-4714-9ac6-9955838012b9
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: df92f168-8d6f-4041-a69c-f6e5b93b5ef3
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317797
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 3ecddda0-ab10-4714-9ac6-9955838012b9
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_3_roger.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317798
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: b0a589d8-20f0-4772-9130-c7a5a06963cc
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 2. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_3_roger.s01_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &3242549764136651080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_99ad7462-90e3-48f0-a810-3d04e416b72d
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317745
+  - rid: 2867449435581317746
+  - rid: 2867449435581317747
+  - rid: 2867449435581317748
+  - rid: 2867449435581317749
+  - rid: 2867449435581317750
+  - rid: 2867449435581317751
+  - rid: 2867449435581317752
+  edges:
+  - GUID: c50d1d44-e9eb-4c01-b668-15f40812fbdd
+    owner: {fileID: 3242549764136651080}
+    inputNodeGUID: 32dd7340-f477-49a5-8cff-d1d0e61a9a5f
+    outputNodeGUID: ec557169-b4c4-41d5-9d02-0824408a0bd5
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 5ce83aa8-ab87-4491-acd7-5d56dba3ef37
+    owner: {fileID: 3242549764136651080}
+    inputNodeGUID: 8da68e09-884c-4e1a-a0ec-d105586ec41b
+    outputNodeGUID: 32dd7340-f477-49a5-8cff-d1d0e61a9a5f
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 3756da50-842d-44f9-9937-b0518277fc50
+    owner: {fileID: 3242549764136651080}
+    inputNodeGUID: 11ba8571-32b3-4535-9694-33f1217fe2ff
+    outputNodeGUID: 8da68e09-884c-4e1a-a0ec-d105586ec41b
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: b0ab28c8-b003-44b7-88b0-d5b376ce9ae4
+    owner: {fileID: 3242549764136651080}
+    inputNodeGUID: fb5767e6-5ed3-43c0-912c-6994fa42d661
+    outputNodeGUID: 11ba8571-32b3-4535-9694-33f1217fe2ff
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: b082aa5b-e1b3-4718-b765-53494730a21b
+    owner: {fileID: 3242549764136651080}
+    inputNodeGUID: 8c6118cc-c0f5-4803-a937-746730a44039
+    outputNodeGUID: fb5767e6-5ed3-43c0-912c-6994fa42d661
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 52d32ad8-497b-4ee3-9e13-80d84c1a1797
+    owner: {fileID: 3242549764136651080}
+    inputNodeGUID: 38c16ddf-010c-4dcf-b72f-543d9c211204
+    outputNodeGUID: 8c6118cc-c0f5-4803-a937-746730a44039
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 6340eaa2-5278-4f00-b251-19efbdb02220
+    owner: {fileID: 3242549764136651080}
+    inputNodeGUID: 6f19c845-13bb-4528-903c-fb2b2b818e73
+    outputNodeGUID: 38c16ddf-010c-4dcf-b72f-543d9c211204
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 99ad7462-90e3-48f0-a810-3d04e416b72d
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317745
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: ec557169-b4c4-41d5-9d02-0824408a0bd5
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317746
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 32dd7340-f477-49a5-8cff-d1d0e61a9a5f
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 2. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne.s01_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317747
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 8da68e09-884c-4e1a-a0ec-d105586ec41b
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 3. Otoscopie
+          - localizationIndex: 0
+            value: 3. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne.s02_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317748
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 11ba8571-32b3-4535-9694-33f1217fe2ff
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. Otoscopie
+          - localizationIndex: 0
+            value: 4. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne.s03_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317749
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: fb5767e6-5ed3-43c0-912c-6994fa42d661
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "5. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 5. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne.s04_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317750
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 8c6118cc-c0f5-4803-a937-746730a44039
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1500
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 6. Questionnaire HHIE-S
+          - localizationIndex: 0
+            value: 6. HHIE-S questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne.s05_hhies
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317751
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 38c16ddf-010c-4dcf-b72f-543d9c211204
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1800
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 7. Test de Weber
+          - localizationIndex: 0
+            value: 7. Weber test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne.s06_webertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317752
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 6f19c845-13bb-4528-903c-fb2b2b818e73
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 2100
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "8. Audiom\xE9trie"
+          - localizationIndex: 0
+            value: 8. Audiometry
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_1_jeanne.s07_audiometry
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &4395483847255487928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_e217db02-de39-418b-9951-ff720abe6f29
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317814
+  - rid: 2867449435581317815
+  - rid: 2867449435581317816
+  - rid: 2867449435581317817
+  - rid: 2867449435581317818
+  - rid: 2867449435581317819
+  edges:
+  - GUID: 3aa55166-700b-4a41-a7f3-16e8cb83811c
+    owner: {fileID: 4395483847255487928}
+    inputNodeGUID: 00cd3f50-acab-4cda-89dd-7bb5a1ddace8
+    outputNodeGUID: cc8e52c7-7774-46cb-8bdb-88466c88bd1f
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ba9d1131-6878-47f9-a3bb-7c364c736197
+    owner: {fileID: 4395483847255487928}
+    inputNodeGUID: bf4bdce1-bdac-4b61-b265-7d946f8cc764
+    outputNodeGUID: 00cd3f50-acab-4cda-89dd-7bb5a1ddace8
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: aa79666c-9e51-45fd-8d37-96b1f3655df3
+    owner: {fileID: 4395483847255487928}
+    inputNodeGUID: d7714ab7-1e3c-44ca-b1e6-177a16b90c32
+    outputNodeGUID: bf4bdce1-bdac-4b61-b265-7d946f8cc764
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: cc9d9378-a72b-49c5-ab08-42ad4738a076
+    owner: {fileID: 4395483847255487928}
+    inputNodeGUID: 1278f1bc-52fa-4f64-b9a3-789b8e112661
+    outputNodeGUID: d7714ab7-1e3c-44ca-b1e6-177a16b90c32
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: e61cc5ee-6a93-450f-bb7a-7a1c4d26db01
+    owner: {fileID: 4395483847255487928}
+    inputNodeGUID: bb247663-2d43-44f9-9e30-86a84f9794f8
+    outputNodeGUID: 1278f1bc-52fa-4f64-b9a3-789b8e112661
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: e217db02-de39-418b-9951-ff720abe6f29
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317814
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: cc8e52c7-7774-46cb-8bdb-88466c88bd1f
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_1_philippe.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317815
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 00cd3f50-acab-4cda-89dd-7bb5a1ddace8
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_1_philippe.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317816
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: bf4bdce1-bdac-4b61-b265-7d946f8cc764
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_1_philippe.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317817
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: d7714ab7-1e3c-44ca-b1e6-177a16b90c32
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. HHIE-S et Weber
+          - localizationIndex: 0
+            value: 4. HHIE-S and Weber
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_1_philippe.s03_hhiesweber
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317818
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 1278f1bc-52fa-4f64-b9a3-789b8e112661
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "5. Audiom\xE9trie"
+          - localizationIndex: 0
+            value: 5. Audiometry
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_1_philippe.s04_audiometry
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317819
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: bb247663-2d43-44f9-9e30-86a84f9794f8
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1500
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "6. Audiom\xE9trie vocale"
+          - localizationIndex: 0
+            value: 6. Speech audiometry
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 3_1_philippe.s05_audiometryvocale
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &4802281051362303210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_2b953bb5-1ed2-4c82-a0d0-2dc06ff06a5a
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317809
+  - rid: 2867449435581317810
+  - rid: 2867449435581317811
+  edges:
+  - GUID: a6ed9ad3-a011-4e3f-b5e9-68297d1464d2
+    owner: {fileID: 4802281051362303210}
+    inputNodeGUID: cf15ee24-807a-4f2d-855f-b8e7a517d49a
+    outputNodeGUID: bdf46f1a-1e18-41cf-8498-70b446931173
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: a1c0d2a2-60b0-4d7d-a211-56b938c2973e
+    owner: {fileID: 4802281051362303210}
+    inputNodeGUID: ef4c612a-0af5-43f7-82a2-239ac6033b66
+    outputNodeGUID: cf15ee24-807a-4f2d-855f-b8e7a517d49a
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 2b953bb5-1ed2-4c82-a0d0-2dc06ff06a5a
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317809
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: bdf46f1a-1e18-41cf-8498-70b446931173
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_5_helene.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317810
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: cf15ee24-807a-4f2d-855f-b8e7a517d49a
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_5_helene.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317811
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: ef4c612a-0af5-43f7-82a2-239ac6033b66
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_5_helene.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &4826824822481479315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_299e8767-bcd1-4e22-af57-c66af826da1c
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317775
+  - rid: 2867449435581317776
+  - rid: 2867449435581317777
+  - rid: 2867449435581317778
+  - rid: 2867449435581317779
+  - rid: 2867449435581317780
+  edges:
+  - GUID: 5c2b5ec5-86a8-4115-968b-a05534af34a9
+    owner: {fileID: 4826824822481479315}
+    inputNodeGUID: de32d05b-1a24-4973-b7ca-a495b16102c0
+    outputNodeGUID: 63ca9070-2bd2-4f18-9d49-248515e873f2
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 1ccb36cd-0a0b-47f7-971a-2de80829eb20
+    owner: {fileID: 4826824822481479315}
+    inputNodeGUID: 7ad0446f-174b-4cdd-9867-7fc728c99dbc
+    outputNodeGUID: de32d05b-1a24-4973-b7ca-a495b16102c0
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 9b00b3c4-c66e-4166-b719-2e80c45e8bf6
+    owner: {fileID: 4826824822481479315}
+    inputNodeGUID: 222901dd-c3eb-4137-8129-680b87781f6d
+    outputNodeGUID: 7ad0446f-174b-4cdd-9867-7fc728c99dbc
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: bbd9d2e5-1675-4b72-9cee-e1962815dfe3
+    owner: {fileID: 4826824822481479315}
+    inputNodeGUID: 11cb7f54-f109-424a-831d-e46175ab3143
+    outputNodeGUID: 222901dd-c3eb-4137-8129-680b87781f6d
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 4ca779bd-4584-4415-9f2f-7252c06a29a2
+    owner: {fileID: 4826824822481479315}
+    inputNodeGUID: 39ea468b-afa7-4200-997e-41534e19f381
+    outputNodeGUID: 11cb7f54-f109-424a-831d-e46175ab3143
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 299e8767-bcd1-4e22-af57-c66af826da1c
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317775
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 63ca9070-2bd2-4f18-9d49-248515e873f2
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_5_lydie.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317776
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: de32d05b-1a24-4973-b7ca-a495b16102c0
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_5_lydie.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317777
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 7ad0446f-174b-4cdd-9867-7fc728c99dbc
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_5_lydie.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317778
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 222901dd-c3eb-4137-8129-680b87781f6d
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. Otoscopie
+          - localizationIndex: 0
+            value: 4. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_5_lydie.s03_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317779
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 11cb7f54-f109-424a-831d-e46175ab3143
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 5. Otoscopie
+          - localizationIndex: 0
+            value: 5. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_5_lydie.s04_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317780
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 39ea468b-afa7-4200-997e-41534e19f381
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1500
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "6. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 6. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_5_lydie.s05_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &5658411551787870830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_60eb368a-9c37-4783-ac15-aa53a665f153
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317761
+  - rid: 2867449435581317762
+  - rid: 2867449435581317763
+  - rid: 2867449435581317764
+  - rid: 2867449435581317765
+  - rid: 2867449435581317766
+  edges:
+  - GUID: 93cba008-93bd-4e7c-bfd9-213de740cb25
+    owner: {fileID: 5658411551787870830}
+    inputNodeGUID: a819cc43-19eb-49c7-a061-3ba2ddb23b85
+    outputNodeGUID: bdc2020e-44fe-4f23-b71e-7e13bccf962b
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 00dd3021-8624-42e9-afc6-4c57f269fdd6
+    owner: {fileID: 5658411551787870830}
+    inputNodeGUID: 69ed8fe1-2e60-4f8a-86eb-a0426288ff17
+    outputNodeGUID: a819cc43-19eb-49c7-a061-3ba2ddb23b85
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 162afc44-7b8c-4ff4-8b6d-9c9cff5b560e
+    owner: {fileID: 5658411551787870830}
+    inputNodeGUID: 15c6dcab-3fc9-4495-8396-25e799c7b5eb
+    outputNodeGUID: 69ed8fe1-2e60-4f8a-86eb-a0426288ff17
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 76faa1d8-93d7-4a97-88a0-62d4bad27f83
+    owner: {fileID: 5658411551787870830}
+    inputNodeGUID: b1aa390f-0aa6-49c7-9e37-8e721dec33f7
+    outputNodeGUID: 15c6dcab-3fc9-4495-8396-25e799c7b5eb
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 5ec0ea3d-af56-4480-a319-f98852a3d8ec
+    owner: {fileID: 5658411551787870830}
+    inputNodeGUID: d9e19e3d-15a1-468c-8e65-4ffa6e818899
+    outputNodeGUID: b1aa390f-0aa6-49c7-9e37-8e721dec33f7
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 60eb368a-9c37-4783-ac15-aa53a665f153
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317761
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: bdc2020e-44fe-4f23-b71e-7e13bccf962b
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_3_denise.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317762
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: a819cc43-19eb-49c7-a061-3ba2ddb23b85
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 2. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_3_denise.s01_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317763
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 69ed8fe1-2e60-4f8a-86eb-a0426288ff17
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_3_denise.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317764
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 15c6dcab-3fc9-4495-8396-25e799c7b5eb
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 900
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 4. Otoscopie
+          - localizationIndex: 0
+            value: 4. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_3_denise.s03_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317765
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: b1aa390f-0aa6-49c7-9e37-8e721dec33f7
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1200
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 5. Otoscopie
+          - localizationIndex: 0
+            value: 5. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_3_denise.s04_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317766
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: d9e19e3d-15a1-468c-8e65-4ffa6e818899
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 1500
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "6. Test de la voix chuchot\xE9e"
+          - localizationIndex: 0
+            value: 6. Whisper test
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_3_denise.s05_wispertest
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &6549656310821778600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_270c7170-e69d-4cd5-8dde-f79f9de24a9d
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317756
+  - rid: 2867449435581317757
+  - rid: 2867449435581317758
+  edges:
+  - GUID: 650806c3-bc1d-4590-b7be-1ab8843df83e
+    owner: {fileID: 6549656310821778600}
+    inputNodeGUID: 7b507b2e-41b5-4a6a-91a5-07568441ef07
+    outputNodeGUID: 94620284-3723-4528-bf49-cfaf98a807ec
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: 464205a5-dfe9-439d-a690-f6094ad7361b
+    owner: {fileID: 6549656310821778600}
+    inputNodeGUID: 42434f22-af7c-4627-a857-9edade5aa7c9
+    outputNodeGUID: 7b507b2e-41b5-4a6a-91a5-07568441ef07
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 270c7170-e69d-4cd5-8dde-f79f9de24a9d
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317756
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 94620284-3723-4528-bf49-cfaf98a807ec
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_2_elisabeth.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317757
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 7b507b2e-41b5-4a6a-91a5-07568441ef07
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Appel t\xE9l\xE9phonique"
+          - localizationIndex: 0
+            value: 2. Phone call
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_2_elisabeth.s01_telephone
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317758
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 42434f22-af7c-4627-a857-9edade5aa7c9
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "3. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 3. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 1_2_elisabeth.s02_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1
+--- !u!114 &7351928384074296055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fa826635869dd438fac5de50b78429, type: 3}
+  m_Name: Steps_6e2dfeec-542f-4931-9b29-7c85d8118bb8
+  m_EditorClassIdentifier: widid.immersiveapi3.editor::WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow.StepGraph
+  serializedNodes: []
+  nodes:
+  - rid: 2867449435581317792
+  - rid: 2867449435581317793
+  - rid: 2867449435581317794
+  edges:
+  - GUID: 421e47af-dc0c-4b3a-8beb-549429eee3af
+    owner: {fileID: 7351928384074296055}
+    inputNodeGUID: 8f4f061c-0db2-499e-8290-9a6e0a3b37e9
+    outputNodeGUID: 64475f80-aa45-426e-9a17-9cd567402880
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  - GUID: ff5a2fca-077e-427c-b4fc-09eb4f08cd28
+    owner: {fileID: 7351928384074296055}
+    inputNodeGUID: 0a19c1df-3948-4e5a-8c16-f0fada301d1d
+    outputNodeGUID: 8f4f061c-0db2-499e-8290-9a6e0a3b37e9
+    inputFieldName: previous
+    outputFieldName: next
+    inputPortIdentifier: 
+    outputPortIdentifier: 
+  groups: []
+  stackNodes: []
+  pinnedElements: []
+  exposedParameters: []
+  serializedParameterList: []
+  stickyNotes: []
+  nodeInspectorReference: {fileID: 0}
+  position: {x: 0, y: 0, z: 0}
+  scale: {x: 1, y: 1, z: 1}
+  owningTraining: {fileID: 11400000, guid: badab35d48bd9fc4299e0077b9df6e79, type: 2}
+  ownerStrategyId: 6e2dfeec-542f-4931-9b29-7c85d8118bb8
+  references:
+    version: 2
+    RefIds:
+    - rid: 2867449435581317792
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 64475f80-aa45-426e-9a17-9cd567402880
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "1. Pr\xE9sentation du cas"
+          - localizationIndex: 0
+            value: 1. Case presentation
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_2_alain.s00_casepresentation
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317793
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 8f4f061c-0db2-499e-8290-9a6e0a3b37e9
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 300
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: "2. Questionnaire de rep\xE9rage"
+          - localizationIndex: 0
+            value: 2. Screening questionnaire
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_2_alain.s01_gonogo
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 0
+    - rid: 2867449435581317794
+      type: {class: StepNode, ns: WiDiD.ImmersiveAPI.Editor.Trainings.GameFlow, asm: widid.immersiveapi3.editor}
+      data:
+        nodeCustomName: 
+        GUID: 0a19c1df-3948-4e5a-8c16-f0fada301d1d
+        computeOrder: -1
+        position:
+          serializedVersion: 2
+          x: 600
+          y: 0
+          width: 100
+          height: 100
+        expanded: 0
+        debug: 0
+        nodeLock: 0
+        stepName:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys:
+          - localizationIndex: 1
+            value: 3. Otoscopie
+          - localizationIndex: 0
+            value: 3. Otoscopy
+          mandatoryLanguagesIndex: 0000000001000000i
+        stepDescription:
+          useLocalizedString: 0
+          importSource:
+            m_TableReference:
+              m_TableCollectionName: 
+            m_TableEntryReference:
+              m_KeyId: 0
+              m_Key: 
+            m_FallbackState: 0
+            m_WaitForCompletion: 0
+            m_LocalVariables: []
+          languageKeys: []
+          mandatoryLanguagesIndex: 0000000001000000i
+        customId: 2_2_alain.s02_otoscopy
+        requireAllPreviousCompleted: 1
+        requireAllPreviousPassed: 0
+        passingScore: 1
+        triggersStrategyCompletion: 1

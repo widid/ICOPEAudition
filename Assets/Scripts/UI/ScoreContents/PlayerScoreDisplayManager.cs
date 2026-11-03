@@ -1,3 +1,4 @@
+using ICOPE.Immersive.Rewards;
 using Managers;
 using PatientData.AlgoData;
 using System.Collections.Generic;
@@ -72,7 +73,7 @@ namespace UI.ScoreContents{
                         break;
                     case FieldsName.SuccessRate:
                         fieldsTable.fields.text = Mathf.RoundToInt(succesRate) + "%";
-                        GameManager.Instance.Money += Mathf.RoundToInt(succesRate / 4f);
+                        GameManager.Instance.EarnCoins(CoinReward.ForSuccessRate(succesRate));
                         break;
                 }
             }

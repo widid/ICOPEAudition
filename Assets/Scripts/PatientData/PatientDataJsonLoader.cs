@@ -90,6 +90,7 @@ namespace PatientData{
 
                     PatientData data = null;
                     yield return ConvertToPatientData(patientJson, relativePath, patientData => data = patientData);
+                    data.caseId = patientName;
                     level.patientsCase.Add(data);
                 }
 

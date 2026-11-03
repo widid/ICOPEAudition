@@ -1,0 +1,24 @@
+{
+    "name": "ICOPE.Immersive.Editor",
+    "rootNamespace": "ICOPE.Immersive.Editor",
+    "references": [
+        "ICOPE.Immersive",
+        "widid.immersiveapi3.runtime",
+        "widid.immersiveapi3.xapi",
+        "widid.reflection.runtime",
+        "com.widid.localization",
+        "widid.immersiveapi3.editor",
+        "com.widid.NodeGraphProcessor.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

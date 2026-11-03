@@ -51,6 +51,7 @@ namespace Managers{
         public void ShowTips(){
             panel.SetActive(true);
             button.SetActive(false);
+            GameManager.Instance.CaseTracker.ReminderOpened();
         }
         
         public void HideTips(){
