@@ -35,7 +35,7 @@
     },
     {
       "type": "GoNoGoOtoscopy",
-      "spriteEarExams": "Images/Steps/VideoOtoscopy/3_3_tympanosclérose.png",
+      "spriteEarExams": "Images/Steps/VideoOtoscopy/3_3_tympanosclerose.png",
       "dialogueDoctor": "On ne trouve aucune alerte au questionnaire Go - No Go et voici le résultat de la vidéo-otoscopie :",
       "predefinedAnswer": [
         "No",
