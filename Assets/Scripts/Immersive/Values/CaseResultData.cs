@@ -12,7 +12,7 @@ namespace ICOPE.Immersive.Values
         public int stepCount;
         public int successRatePercent;
         public float successRate;
-        public int durationSeconds;
+        public int durationMinutes;
 
         public void CopyFrom(CaseResultData other)
         {
@@ -22,7 +22,7 @@ namespace ICOPE.Immersive.Values
             stepCount = other.stepCount;
             successRatePercent = other.successRatePercent;
             successRate = other.successRate;
-            durationSeconds = other.durationSeconds;
+            durationMinutes = other.durationMinutes;
         }
     }
 }

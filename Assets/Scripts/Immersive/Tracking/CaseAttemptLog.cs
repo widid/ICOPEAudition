@@ -59,7 +59,7 @@ namespace ICOPE.Immersive.Tracking
                 stepCount = stepCount,
                 successRate = successRate,
                 successRatePercent = Mathf.RoundToInt(successRate * 100f),
-                durationSeconds = Mathf.RoundToInt((float)duration.TotalSeconds)
+                durationMinutes = Mathf.RoundToInt((float)duration.TotalMinutes)
             };
         }
     }

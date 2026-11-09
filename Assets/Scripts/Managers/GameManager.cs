@@ -94,6 +94,7 @@ namespace Managers{
 
         [Header("Menus")] [SerializeField] private GameObject mainMenu;
         [SerializeField] private Button playButton;
+        [SerializeField] private GameObject progressionLoadingText;
         [SerializeField] private GameObject gameMenu;
         [SerializeField] private GameObject stepMenu;
         [SerializeField] private GameObject isTutorialActive;
@@ -299,6 +300,7 @@ namespace Managers{
 
             Instance = this;    
             playButton.interactable = false;
+            progressionLoadingText.SetActive(true);
 
             GameStateManager = GetComponent<GameStateManager>();
             GameData = GetComponent<GameData>();
@@ -333,12 +335,16 @@ namespace Managers{
             StartCoroutine(PatientDataJsonLoader.LoadLevelData(
                 levels => {
                     levelsData = levels;
-                    levelsReady = true;
-                    TryCompleteStartup();
                     levelSelector.ActualizeLevelList();
                     Debug.Log($"Le niveau \"{levels.patientByLevel[^1].name}\" est prêt !");
                 },
                 levels => {
+                    if (levels == null) return;
+
+                    levelsData = levels;
+                    levelsReady = true;
+                    TryCompleteStartup();
+
                     Debug.Log("Liste des niveaux:");
                     foreach (PatientCaseLevel level in levels.patientByLevel) {
                         string text = $"___{level.name}___: ";
@@ -374,12 +380,13 @@ namespace Managers{
             TryCompleteStartup();
         }
 
-        // Once levels and restored progress are both ready, selects the last unlocked patient and allows play.
+        // Once every level and the restored progress are ready, selects the last unlocked patient and allows play.
         private void TryCompleteStartup(){
             if (!levelsReady || !immersiveReady) return;
 
             levelSelector.SelectLastUnlockedPatient();
             playButton.interactable = true;
+            progressionLoadingText.SetActive(false);
         }
 
         #endregion

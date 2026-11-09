@@ -1095,9 +1095,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -1112,7 +1112,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -1151,9 +1151,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -1168,7 +1168,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -1207,9 +1207,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -1224,7 +1224,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -1336,7 +1336,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -1392,7 +1392,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -1448,7 +1448,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -2671,9 +2671,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -2688,7 +2688,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -2727,9 +2727,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -2744,7 +2744,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -2783,9 +2783,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -2800,7 +2800,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -2912,7 +2912,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -2968,7 +2968,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -3024,7 +3024,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -3387,9 +3387,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -3404,7 +3404,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -3443,9 +3443,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -3460,7 +3460,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -3499,9 +3499,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -3516,7 +3516,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -3628,7 +3628,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -3684,7 +3684,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -3740,7 +3740,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -4498,9 +4498,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -4515,7 +4515,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -4554,9 +4554,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -4571,7 +4571,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -4610,9 +4610,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -4627,7 +4627,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -4739,7 +4739,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -4795,7 +4795,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -4851,7 +4851,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -5474,9 +5474,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -5491,7 +5491,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -5530,9 +5530,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -5547,7 +5547,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -5586,9 +5586,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -5603,7 +5603,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -5715,7 +5715,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -5771,7 +5771,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -5827,7 +5827,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -6640,9 +6640,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -6657,7 +6657,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -6696,9 +6696,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -6713,7 +6713,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -6752,9 +6752,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -6769,7 +6769,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -6881,7 +6881,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -6937,7 +6937,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -6993,7 +6993,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -8066,9 +8066,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -8083,7 +8083,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -8122,9 +8122,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -8139,7 +8139,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -8178,9 +8178,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -8195,7 +8195,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -8307,7 +8307,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -8363,7 +8363,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -8419,7 +8419,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -8782,9 +8782,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -8799,7 +8799,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -8838,9 +8838,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -8855,7 +8855,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -8894,9 +8894,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -8911,7 +8911,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -9023,7 +9023,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -9079,7 +9079,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -9135,7 +9135,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -9403,9 +9403,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -9420,7 +9420,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -9459,9 +9459,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -9476,7 +9476,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -9515,9 +9515,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -9532,7 +9532,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -9644,7 +9644,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -9700,7 +9700,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -9756,7 +9756,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -10404,9 +10404,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -10421,7 +10421,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -10460,9 +10460,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -10477,7 +10477,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -10516,9 +10516,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -10533,7 +10533,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -10645,7 +10645,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -10701,7 +10701,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -10757,7 +10757,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -11120,9 +11120,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -11137,7 +11137,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -11176,9 +11176,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -11193,7 +11193,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -11232,9 +11232,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -11249,7 +11249,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -11361,7 +11361,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -11417,7 +11417,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -11473,7 +11473,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -12121,9 +12121,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -12138,7 +12138,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -12177,9 +12177,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -12194,7 +12194,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -12233,9 +12233,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -12250,7 +12250,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -12362,7 +12362,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -12418,7 +12418,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -12474,7 +12474,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -13027,9 +13027,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -13044,7 +13044,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -13083,9 +13083,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -13100,7 +13100,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -13139,9 +13139,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -13156,7 +13156,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -13268,7 +13268,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -13324,7 +13324,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -13380,7 +13380,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -13893,9 +13893,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -13910,7 +13910,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -13949,9 +13949,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -13966,7 +13966,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -14005,9 +14005,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -14022,7 +14022,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -14134,7 +14134,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -14190,7 +14190,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -14246,7 +14246,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -14664,9 +14664,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: D'analyse
+              value: Erreurs d'analyse
             - localizationIndex: 0
-              value: In the analysis
+              value: Analysis errors
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -14681,7 +14681,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -14720,9 +14720,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "Sur la conduite \xE0 tenir"
+              value: "Erreurs sur la conduite \xE0 tenir"
             - localizationIndex: 0
-              value: In the course of action
+              value: Errors in the course of action
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -14737,7 +14737,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: erreurs
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -14776,9 +14776,9 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys:
             - localizationIndex: 1
-              value: "R\xE9ussies du premier coup"
+              value: "\xC9tapes r\xE9ussies du premier coup"
             - localizationIndex: 0
-              value: Right first time
+              value: Steps right first time
             mandatoryLanguagesIndex: 0000000001000000i
           <Description>k__BackingField:
             useLocalizedString: 0
@@ -14793,7 +14793,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: "\xE9tapes"
+          <Unit>k__BackingField: 
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -14905,7 +14905,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 0
           <ApplyServerValue>k__BackingField: 0
           <SendOnClose>k__BackingField: 0
@@ -14961,7 +14961,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: secondes
+          <Unit>k__BackingField: min
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1
@@ -15017,7 +15017,7 @@ MonoBehaviour:
               m_LocalVariables: []
             languageKeys: []
             mandatoryLanguagesIndex: 0000000001000000i
-          <Unit>k__BackingField: fois
+          <Unit>k__BackingField: x
           <SyncWithServer>k__BackingField: 1
           <ApplyServerValue>k__BackingField: 1
           <SendOnClose>k__BackingField: 1

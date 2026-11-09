@@ -6,13 +6,13 @@ namespace ICOPE.Immersive.Values
     [Serializable]
     public class PatientHistoryData
     {
-        public int[] secondsSpent = new int[0];
+        public int[] minutesSpent = new int[0];
         public int[] timesHandled = new int[0];
 
         public void Resize(int count)
         {
-            if (secondsSpent.Length != count)
-                Array.Resize(ref secondsSpent, count);
+            if (minutesSpent.Length != count)
+                Array.Resize(ref minutesSpent, count);
 
             if (timesHandled.Length != count)
                 Array.Resize(ref timesHandled, count);

@@ -66,7 +66,7 @@ namespace ICOPE.Immersive.Editor.Authoring
             for (int i = 0; i < cases.Count; i++)
             {
                 string strategyId = FlowIds.Strategy(cases[i].CaseId);
-                sources.PatientSecondsSpent.Add(EnsureSource<ReflectedIntSourceSO>(TrackingValueAssets.PatientHistoryName, $"{strategyId}.{nameof(PatientHistoryData.secondsSpent)}", patientHistory, TrackingValueAssets.PatientSecondsSpent(i)));
+                sources.PatientMinutesSpent.Add(EnsureSource<ReflectedIntSourceSO>(TrackingValueAssets.PatientHistoryName, $"{strategyId}.{nameof(PatientHistoryData.minutesSpent)}", patientHistory, TrackingValueAssets.PatientMinutesSpent(i)));
                 sources.PatientTimesHandled.Add(EnsureSource<ReflectedIntSourceSO>(TrackingValueAssets.PatientHistoryName, $"{strategyId}.{nameof(PatientHistoryData.timesHandled)}", patientHistory, TrackingValueAssets.PatientTimesHandled(i)));
             }
 

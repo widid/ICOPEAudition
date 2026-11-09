@@ -2959,6 +2959,7 @@ MonoBehaviour:
   money: 20
   mainMenu: {fileID: 4465172494680370487}
   playButton: {fileID: 7101395536689750124}
+  progressionLoadingText: {fileID: 5748839799221109326}
   gameMenu: {fileID: 7486689294307232253}
   stepMenu: {fileID: 2688747527486996551}
   isTutorialActive: {fileID: 1151771454038572279}
@@ -4554,6 +4555,11 @@ GameObject:
 --- !u!1 &5082096366137956711 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5543087396582816531, guid: b51e87c9a5fd22b4fac438fd6f52e57f, type: 3}
+  m_PrefabInstance: {fileID: 750477324079047284}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5748839799221109326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5020880750590058554, guid: b51e87c9a5fd22b4fac438fd6f52e57f, type: 3}
   m_PrefabInstance: {fileID: 750477324079047284}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &7101395536689750124 stripped

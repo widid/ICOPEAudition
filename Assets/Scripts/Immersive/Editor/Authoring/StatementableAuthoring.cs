@@ -27,7 +27,7 @@ namespace ICOPE.Immersive.Editor.Authoring
                 CaseDefinition patient = cases[i];
                 TrainingStrategyData strategy = gameFlow.Strategies.First(s => s.Id == FlowIds.Strategy(patient.CaseId));
                 strategy.Performances = BuildPerformances(strategy.Id, patient, sources);
-                strategy.Performances.Add(BuildTimeSpentPerformance(strategy.Id, sources.PatientSecondsSpent[i]));
+                strategy.Performances.Add(BuildTimeSpentPerformance(strategy.Id, sources.PatientMinutesSpent[i]));
                 strategy.Performances.Add(BuildTimesHandledPerformance(strategy.Id, sources.PatientTimesHandled[i]));
 
                 foreach (CaseStepDefinition step in patient.Steps)
@@ -145,15 +145,15 @@ namespace ICOPE.Immersive.Editor.Authoring
         }
 
         // Synced with the server: the stored total is applied at startup and sent again before the session terminates.
-        static TrainingPerformanceData BuildTimeSpentPerformance(string strategyId, ReflectedIntSourceSO secondsSpent) => new TrainingPerformanceData
+        static TrainingPerformanceData BuildTimeSpentPerformance(string strategyId, ReflectedIntSourceSO minutesSpent) => new TrainingPerformanceData
         {
             Id = FlowIds.PatientTimeSpent(strategyId),
             Name = LocalizedText.Of("Passées au total sur ce patient", "Spent on this patient in total"),
-            Unit = "secondes",
+            Unit = "min",
             SyncWithServer = true,
             ApplyServerValue = true,
             SendOnClose = true,
-            Raw = new PerformanceIntValueSource { Enabled = true, ReflectedSource = secondsSpent },
+            Raw = new PerformanceIntValueSource { Enabled = true, ReflectedSource = minutesSpent },
             Min = new PerformanceIntValueSource { Enabled = true, FixedValue = 0 }
         };
 
@@ -162,7 +162,7 @@ namespace ICOPE.Immersive.Editor.Authoring
         {
             Id = FlowIds.PatientTimesHandled(strategyId),
             Name = LocalizedText.Of("Pris en charge au total", "Handled in total"),
-            Unit = "fois",
+            Unit = "x",
             SyncWithServer = true,
             ApplyServerValue = true,
             SendOnClose = true,

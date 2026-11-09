@@ -21,7 +21,7 @@ namespace ICOPE.Immersive.Values
 
         public static string SkillScore(int index) => $"{DataMember}/{nameof(SkillBoardData.scores)}[{index}]";
 
-        public static string PatientSecondsSpent(int index) => $"{DataMember}/{nameof(PatientHistoryData.secondsSpent)}[{index}]";
+        public static string PatientMinutesSpent(int index) => $"{DataMember}/{nameof(PatientHistoryData.minutesSpent)}[{index}]";
 
         public static string PatientTimesHandled(int index) => $"{DataMember}/{nameof(PatientHistoryData.timesHandled)}[{index}]";
 

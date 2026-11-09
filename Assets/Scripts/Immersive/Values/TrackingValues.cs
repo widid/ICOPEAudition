@@ -67,7 +67,7 @@ namespace ICOPE.Immersive.Values
             GlobalStats.Data.reminderOpenings = 0;
             GlobalStats.Data.successRatePercent = 0;
             GlobalStats.Data.successRate = 0f;
-            Array.Clear(PatientHistory.Data.secondsSpent, 0, PatientHistory.Data.secondsSpent.Length);
+            Array.Clear(PatientHistory.Data.minutesSpent, 0, PatientHistory.Data.minutesSpent.Length);
             Array.Clear(PatientHistory.Data.timesHandled, 0, PatientHistory.Data.timesHandled.Length);
             Array.Clear(ProgressBoard.Data.levelsCompleted, 0, ProgressBoard.Data.levelsCompleted.Length);
         }

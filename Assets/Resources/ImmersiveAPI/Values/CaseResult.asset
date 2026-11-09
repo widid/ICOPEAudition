@@ -19,4 +19,4 @@ MonoBehaviour:
     stepCount: 0
     successRatePercent: 0
     successRate: 0
-    durationSeconds: 0
+    durationMinutes: 0

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 195b8a7cee8bb1c42a39a2f1d71a982a, type: 3}
-  m_Name: PatientHistory.1_2_elisabeth.secondsSpent
+  m_Name: PatientHistory.1_2_elisabeth.minutesSpent
   m_EditorClassIdentifier: widid.reflection.runtime::WiDiD.Reflection.Tracking.ReflectedIntSourceSO
   <Data>k__BackingField:
     <TargetGuid>k__BackingField: 
     <ComponentTypeName>k__BackingField: 
-    <MemberPath>k__BackingField: 'Data/secondsSpent[2]'
+    <MemberPath>k__BackingField: 'Data/minutesSpent[2]'
     <LastKnownSceneName>k__BackingField: 
     <LastKnownScenePath>k__BackingField: 
     <LastKnownObjectName>k__BackingField: 

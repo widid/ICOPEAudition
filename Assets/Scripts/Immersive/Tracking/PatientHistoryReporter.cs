@@ -9,14 +9,17 @@ using UnityEngine;
 namespace ICOPE.Immersive.Tracking
 {
     /// <summary>
-    /// Adds each attempt, finished or left, to its patient's total time and handled count, then sends
+    /// Adds each attempt, finished or left, to its patient's total minutes and handled count, then sends
     /// both Strategy-scoped Performances. Totals are restored from the server at startup.
     /// </summary>
     public class PatientHistoryReporter
     {
+        const int SecondsPerMinute = 60;
+
         readonly IGameFlowStatements statements;
         readonly IGameFlowProgress progress;
         readonly PatientHistorySO history;
+        int[] pendingSeconds = new int[0];
 
         public PatientHistoryReporter(IGameFlowStatements statements, IGameFlowProgress progress, PatientHistorySO history)
         {
@@ -32,11 +35,22 @@ namespace ICOPE.Immersive.Tracking
                 return;
 
             history.Data.Resize(progress.StrategyIds.Count);
-            history.Data.secondsSpent[index] += Mathf.RoundToInt((float)duration.TotalSeconds);
+            AddDuration(index, duration);
             history.Data.timesHandled[index]++;
 
             await statements.ScorePerformance(FlowIds.PatientTimeSpent(strategyId));
             await statements.ScorePerformance(FlowIds.PatientTimesHandled(strategyId));
+        }
+
+        // Sub-minute leftovers carry over to the patient's next attempt in this session.
+        void AddDuration(int index, TimeSpan duration)
+        {
+            if (pendingSeconds.Length != history.Data.minutesSpent.Length)
+                Array.Resize(ref pendingSeconds, history.Data.minutesSpent.Length);
+
+            pendingSeconds[index] += Mathf.RoundToInt((float)duration.TotalSeconds);
+            history.Data.minutesSpent[index] += pendingSeconds[index] / SecondsPerMinute;
+            pendingSeconds[index] %= SecondsPerMinute;
         }
     }
 }

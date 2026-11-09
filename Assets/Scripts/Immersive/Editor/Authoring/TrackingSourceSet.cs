@@ -28,7 +28,7 @@ namespace ICOPE.Immersive.Editor.Authoring
         public ReflectedFloatSourceSO SuccessRate { get; set; }
 
         /// <summary>Indexed like the generated cases.</summary>
-        public List<ReflectedIntSourceSO> PatientSecondsSpent { get; } = new();
+        public List<ReflectedIntSourceSO> PatientMinutesSpent { get; } = new();
 
         /// <summary>Indexed like the generated cases.</summary>
         public List<ReflectedIntSourceSO> PatientTimesHandled { get; } = new();

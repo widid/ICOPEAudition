@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 195b8a7cee8bb1c42a39a2f1d71a982a, type: 3}
-  m_Name: PatientHistory.2_4_marie.secondsSpent
+  m_Name: CaseResult.durationMinutes
   m_EditorClassIdentifier: widid.reflection.runtime::WiDiD.Reflection.Tracking.ReflectedIntSourceSO
   <Data>k__BackingField:
     <TargetGuid>k__BackingField: 
     <ComponentTypeName>k__BackingField: 
-    <MemberPath>k__BackingField: 'Data/secondsSpent[9]'
+    <MemberPath>k__BackingField: Data/durationMinutes
     <LastKnownSceneName>k__BackingField: 
     <LastKnownScenePath>k__BackingField: 
     <LastKnownObjectName>k__BackingField: 
-    <DirectAsset>k__BackingField: {fileID: 11400000, guid: 762bcc861f68b4948804950890c09445, type: 2}
+    <DirectAsset>k__BackingField: {fileID: 11400000, guid: d0468546cfc8c58408bdb399bfc1b451, type: 2}
